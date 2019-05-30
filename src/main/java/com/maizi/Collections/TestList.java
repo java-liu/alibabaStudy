@@ -1,4 +1,4 @@
-package com.maiz.Collections;
+package com.maizi.Collections;
 
 import java.util.ArrayList;
 import java.util.Iterator;

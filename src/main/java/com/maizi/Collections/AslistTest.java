@@ -1,4 +1,4 @@
-package com.maiz.Collections;
+package com.maizi.Collections;
 
 import java.util.Arrays;
 import java.util.List;
