@@ -13,6 +13,7 @@
     </modules>
     <properties>
         <guava.version>16.0.1</guava.version>
+        <slf4j.version>1.7.7</slf4j.version>
     </properties>
     <dependencies>
         <dependency>
@@ -20,6 +21,28 @@
             <artifactId>guava</artifactId>
             <version>${guava.version}</version>
             <!--<version>16.0.1</version>-->
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-core</artifactId>
+            <version>1.2.3</version>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.2.3</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.15</version>
         </dependency>
     </dependencies>
 </project>

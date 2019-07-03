@@ -39,9 +39,22 @@ public class AslistTest {
         }
     }
 
+    public static void Demo3(){
+        StringBuilder sb = new StringBuilder();
+        String str1 = "http://39.98.46.73:8081/sgxcksh/taskStep//czlfximg//2019-06/15597355096203.3.3@@p-53f66a07.jpg";
+        sb.append(str1);
+        sb.append(",");
+        sb.append(str1);
+        String str = "http://39.98.46.73:8081/sgxcksh/taskStep//czlfximg//2019-06/15597355094303.3.1@@p-52c239ee.jpg," +
+                "http://39.98.46.73:8081/sgxcksh/taskStep//czlfximg//2019-06/15597355096203.3.3@@p-53f66a07.jpg";
+        String[] strs = sb.toString().split(",");
+        System.out.println(strs[0]);
+        System.out.println(strs[1]);
+    }
 
 
     public static void main(String[] args){
-        Demo1();
+//        Demo1();
+        Demo3();
     }
 }
