@@ -4,6 +4,7 @@ import com.google.gson.Gson;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
+import org.aspectj.lang.reflect.MethodSignature;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
@@ -12,6 +13,7 @@ import org.springframework.web.context.request.ServletRequestAttributes;
 
 import javax.servlet.http.HttpServletRequest;
 import java.lang.reflect.Method;
+import java.util.Optional;
 
 /**
  * @ClassName WebLogAspect
@@ -112,7 +114,19 @@ public class WebLogAspect {
         //接口结束后执行，方便分割查看
         LOG.info("================================end================================"+ LINE_SEPARATOR);
     }
-
+    /***
+     * 在抛出异常时使用
+     * @param joinPoint
+     * @param ex
+     */
+    @AfterThrowing(value = "webLog()",throwing = "ex")
+    public void afterThrowing(JoinPoint joinPoint,Throwable ex){
+        MethodSignature ms = (MethodSignature) joinPoint.getSignature();
+        Method method = ms.getMethod();
+        String description = method.getAnnotation(WebLog.class).description();
+        //异常抛出的信息还需要加工（后续再优化）
+        LOG.info(method + "出现异常  : {}", Optional.ofNullable(ex).orElse(ex.getCause()));
+    }
     /**
      * 获取切面注解的描述
      * @author      Liuys
