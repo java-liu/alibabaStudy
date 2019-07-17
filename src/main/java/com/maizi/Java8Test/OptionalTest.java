@@ -1,6 +1,7 @@
 package com.maizi.Java8Test;
 
 import com.maizi.entity.Person;
+import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -29,11 +30,9 @@ public class OptionalTest {
 
         Optional<Integer> b = Optional.of(value2);
         //logger.info(optionalTest.sum(a,b).toString());
-
         //------------字符串测试began-------------
         String str1 = "";
         String str2 = null;
-
         Optional<String> oStr = Optional.ofNullable(str1);
         Optional<String> oStr2 = Optional.ofNullable(str2);
         Optional<String> oStr3 = Optional.of(str1);
@@ -105,5 +104,14 @@ public class OptionalTest {
         Person person = p1.orElse(new Person("aaa"));
         Person person2 = p2.orElse(new Person("aaa"));
         return person2;
+    }
+
+    @Test
+    public void demo2(){
+        Integer a = new Integer(12);
+        Integer b = new Integer(13);
+        Optional<Integer> oa = Optional.ofNullable(a);
+        Optional<Integer> ob = Optional.ofNullable(b);
+        logger.info(sum(oa,ob).toString());
     }
 }
