@@ -82,6 +82,12 @@ public class RotateString {
         }
         //System.out.println(new String(ch));
     }
+
+    /***
+     * 这种交换对基本数据类型没用
+     * @param a
+     * @param b
+     */
     private void exchange(char a,char b){
         char tmp = a;
         a = b;
@@ -92,7 +98,6 @@ public class RotateString {
         char yy = ch[y];
         ch[x] = yy;
         ch[y] = xx;
-
     }
 
     /***

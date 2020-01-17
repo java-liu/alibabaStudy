@@ -10,8 +10,12 @@ public class ParamPassing {
     private static int intStatic = 222;
     private static String stringStatic = "old string";
     private static StringBuilder stringBuilderStatic = new StringBuilder("old stringBuilder");
-
+    private static int x = 10;
     public static void main(String[] args){
+
+        System.out.println("调用前x的值：" + x);
+        updateValue(x);
+        System.out.println("调用后x的值：" + x);
         method(intStatic);
         method(stringStatic);
         method(stringBuilderStatic,stringBuilderStatic);
@@ -21,6 +25,10 @@ public class ParamPassing {
         System.out.println(intStatic);
         System.out.println(stringStatic);
         System.out.println(stringBuilderStatic);
+    }
+
+    public static void updateValue(int value){
+        value = 3 * value;
     }
 
     /***
@@ -49,7 +57,6 @@ public class ParamPassing {
         * 3.RETURN
         * 先把本地赋值的888压入虚拟机栈中的操作栈，然后给静态变量intStatic赋值。
         * */
-
         intStatic = 888;
     }
 

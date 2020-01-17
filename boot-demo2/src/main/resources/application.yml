@@ -1,0 +1,25 @@
+#将原有的配置文件删除，定义application.yml文件。需要注意的是。这三部分之间是由三个减号(-)分隔的，必须是三个。
+#而这三部分充当着之前的三个配置文件。
+spring:
+  profiles:
+    active:
+      - dev
+
+---
+
+spring:
+  profiles:dev
+
+server:
+  port: 8888
+  servlet:
+    context-path: /demo2
+
+---
+
+spring:
+  profiles: prod
+server:
+  port: 9999
+  servlet:
+    context-path: /demo2

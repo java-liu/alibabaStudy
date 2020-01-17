@@ -14,7 +14,8 @@ import java.util.List;
 public class TestList {
     public static  void main(String[] args){
         //Demo1();
-        Demo2();
+        //Demo2();
+        Test();
     }
     /**
     * remove元素请使用Iterator方式，如果并发操作，需要对Iterator对象加锁
@@ -63,5 +64,9 @@ public class TestList {
         for (String str:list){
             System.out.println(str);
         }
+    }
+
+    public static void Test(){
+        System.out.println("yqEEOTJZH6kEbORr43xNteRMjMkUlDnSxtLKMgIh4A14PnBVH0bwy".getBytes().length);
     }
 }

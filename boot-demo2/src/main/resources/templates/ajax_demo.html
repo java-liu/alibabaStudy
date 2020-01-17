@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户列表</title>
+</head>
+<body>
+<script type="text/javascript" src="../js/jquery-3.4.1.js"></script>
+<script type="text/javascript">
+    //Ajax：Asynchronous Javascript And XML（异步 JavaScript 和 XML）。它并不是凭空出现的新技术，而是对于现有技术的结合。Ajax 的核心是 js 对象：XMLHttpRequest。````````````````````````````````````````````````````````
+    //绑定点击事件
+    /// 这个写法好像浏览器报错
+   // document.querySelector("#btnAjax").onclick = function(){}
+    var getAjaxGet = function () {
+        //发送ajax 请求需要 五步
+
+        // (1)创建异步对象
+        var ajaxObj = new XMLHttpRequest();
+        // (2)设置请求的参数。包括：请求的方法，请求的url
+        ajaxObj.open('get','/demo/user/ajaxDemo');
+        // (3) 发送请求
+        ajaxObj.send();
+        // (4) 注册事件。onreadystatechange事件，状态改变时就会调用。
+        //如果要在数据完整请求回来的时候才调用，我们需要手动写一些决断的逻辑
+        ajaxObj.onreadystatechange = function () {
+            //为了保证 数据 完整返回，我们一般会判断两个值
+            if(ajaxObj.readyState == 4 && ajaxObj.status == 200){
+                // 如果能够进到这个判断，说明数据完美的返回了，并且请求的页面是存在的
+
+                // (5).在注册的事件中，获取返回的内容，并修改页面的显示
+                console.log("数据返回成功");
+                //数据是保存在异步对象的属性中
+                console.log(ajaxObj.responseText);
+
+                //修改页面的显示
+                document.querySelector("h1").innerHTML = ajaxObj.responseText;
+            }
+        }
+    }
+    var getAjaxPost = function () {
+        //异步对象
+        var xhr = new XMLHttpRequest();
+
+        xhr.open('post','/demo/user/getAjaxPost');
+
+        //如果想要使用post提交数据，必须添加此行
+        xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+
+        //将数据通过send方法传递
+        xhr.send('name=fox&age=18');
+        //发送并接受返回值
+        xhr.onreadystatechange = function () {
+            //这步为判断服务器是否正确响应
+            if(xhr.readyState == 4 && xhr.status == 200){
+                console.info(xhr.responseText);
+            }
+        };
+    }
+    
+    
+    var getAjaxJson = function () {
+        $.ajax({
+            url : "/demo/user/getUser",
+            url : "/demo/user/getUser",
+            type: "post",
+            data:{"message":"多大了"},
+            dataType :"json",
+            success:function(data,status){
+                console.info(data);
+                //将JSON 字符串格式化为 js对象
+                //var jsObj = JSON.parse(data);
+                //将js对象格式化为JSON字符串
+                var jsonStr = JSON.stringify(data);
+                console.info(jsonStr);
+
+            }
+        });
+    }
+</script>
+    ${name}
+<h1>Ajax 发送 get请求</h1>
+<input type="button" value="发送get请求" id="btnAjax" onclick="getAjaxGet();">
+<h1>Ajax 发送 post请求</h1>
+<input type="button" value="发送post请求" id="btnAjax2" onclick="getAjaxPost();">
+<h1>Ajax 发送 json请求</h1>
+<input type="button" value="发送json请求" id="btnAjax3" onclick="getAjaxJson();">
+</body>
+</html>
