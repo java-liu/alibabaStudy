@@ -1,7 +1,6 @@
 package com.maizi.Collections;
 
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 /**
  * @ClassName AslistTest
@@ -33,9 +32,9 @@ public class AslistTest {
         print(list);
     }
 
-    public static void print(List<String>  list){
-        for (String str:list){
-            System.out.println(str);
+    public static void print(List<Object>  list){
+        for (Object obj:list){
+            System.out.println(obj);
         }
     }
 
@@ -52,9 +51,17 @@ public class AslistTest {
         System.out.println(strs[1]);
     }
 
+    public static void Demo2(){
+        Integer[] array = {1,2,3};
+        List<Integer> arrayList = new ArrayList<>(Arrays.asList(array));
+        print(Collections.singletonList(arrayList));
+    }
+
 
     public static void main(String[] args){
 //        Demo1();
-        Demo3();
+        //Demo3();
+        Demo2();
+        System.out.println(new Date());
     }
 }

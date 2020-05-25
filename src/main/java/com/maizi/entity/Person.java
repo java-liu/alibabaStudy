@@ -16,6 +16,15 @@ public class Person {
         this.name = name;
     }
 
+    public Person() {
+
+    }
+    public Person(Integer id, String name, Integer age){
+        this.id = id;
+        this.name = name;
+        this.age = age;
+    }
+
     public Integer getId() {
         return id;
     }
@@ -47,4 +56,27 @@ public class Person {
                 ", age=" + age +
                 '}';
     }
+    @Override
+    public boolean equals(Object obj){
+        if(obj == null || this.getClass() != obj.getClass()){
+            return false;
+        }
+        if(this == obj){
+            return true;
+        }
+        Person temp = (Person) obj;
+        if(temp.getId().equals(this.id) && name.equals(temp.getName())){
+            return true;
+        }
+        return false;
+    }
+
+    @Override
+    public int hashCode(){
+        if(id == null){
+            id = 0;
+        }
+        return id + name.hashCode();
+    }
+
 }

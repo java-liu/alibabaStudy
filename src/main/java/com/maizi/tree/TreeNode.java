@@ -19,6 +19,8 @@ public class TreeNode<T> {
     //在兄弟节点列表中的索引
     protected int index = -1;
     protected T bindData;
+
+    private int sumTotal;
     //是否可见，用于节点遍历时，是否处理此节点及其后代节点，默认可见
     protected boolean visible = true;
 
@@ -37,6 +39,14 @@ public class TreeNode<T> {
     public TreeNode(T bindData) {
         this();
         this.bindData = bindData;
+    }
+
+    public int getSumTotal() {
+        return sumTotal;
+    }
+
+    public void setSumTotal(int sumTotal) {
+        this.sumTotal = sumTotal;
     }
 
     /**

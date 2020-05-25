@@ -17,7 +17,7 @@ package com.exceptions;
  *     //一定会被执行的语句
  * }
  *
- * 如果定义功能时有问题发生需要报告给调用才，可以通过在函数上使用throws关键字进行声明
+ * 如果定义功能时有问题发生需要报告给调用者，可以通过在函数上使用throws关键字进行声明
  */
 public class Demo {
     public static void main(String[] args)//2、或者捕获 throws Exception//1、在调用者上声明
