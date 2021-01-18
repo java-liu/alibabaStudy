@@ -85,6 +85,8 @@ public class Sequence {
     protected static long getDatacenterId(long maxDatacenterId) {
         long id = 0L;
         try {
+            //获取本机ip，此处会出现问题，特别是Linux上，多网卡的情况下，
+            //docker环境可能获取不到ip
             InetAddress ip = InetAddress.getLocalHost();
             NetworkInterface network = NetworkInterface.getByInetAddress(ip);
             if (network == null) {

@@ -59,8 +59,20 @@ public class Main {
         System.out.println(date2);
     }
 
+    public static void Demo5() throws ParseException {
+        Date beginTime = new Date();
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+        SimpleDateFormat sdf1 = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        String endTimeFormat = sdf.format(beginTime);
+        Date endTime = sdf1.parse(endTimeFormat+" " + "23:59:59");
+
+        System.out.println(endTimeFormat);
+        System.out.println(endTime);
+
+    }
+
     public static void main(String[] args) throws ParseException{
         //Demo2();
-        Demo4();
+        Demo5();
     }
 }

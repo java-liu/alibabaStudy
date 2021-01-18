@@ -9,6 +9,5 @@ package com.maizi.snowflake;
  **/
 public class Test {
     public static void main(String[] args){
-        System.out.println(IdWorker.getId());
     }
 }
