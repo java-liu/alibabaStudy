@@ -1,0 +1,17 @@
+
+M
+java:S1128"+Remove this unused import 'sun.nio.ch.Net'.(ğ¥Œùÿÿÿÿ8ÅµÀ©.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶Øı™
+Z	java:S106 "9Replace this use of System.out or System.err by a logger.(¡Ç³õşÿÿÿÿ8øÆ±Æ©.
+o
+java:S3776%"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ŒÃ 8²õ“Á©.
+^
+java:S1128"<Remove this unused import 'com.sun.jmx.snmp.InetAddressAcl'.(Ï¶ä‹şÿÿÿÿ8Œ„ÀÀ©.
+W
+java:S1191"5Use classes from the Java API instead of Sun classes.(Ï¶ä‹şÿÿÿÿ8Œ„ÀÀ©.
+E
+java:S1148@"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¿¯”Á©.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(²Â„ïúÿÿÿÿ8œ¾¯Æ©.
+i
+java:S2259""GA "NullPointerException" could be thrown; "localHost" is nullable here.(Ïœ¢ûÿÿÿÿ8²Í´Æ©.
+Z	java:S106""9Replace this use of System.out or System.err by a logger.(Ïœ¢ûÿÿÿÿ8²Í´Æ©.

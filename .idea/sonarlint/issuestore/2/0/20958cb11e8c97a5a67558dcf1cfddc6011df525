@@ -1,0 +1,56 @@
+
+<
+java:S2129o"!Remove this "Integer" constructor(¹Ãçùÿÿÿÿ
+@
+java:S2629s"%Invoke method(s) only conditionally. (ÌãŞöüÿÿÿÿ
+V	java:S125 "<This block of commented-out lines of code should be removed.(°˜çöüÿÿÿÿ
+V	java:S1251"<This block of commented-out lines of code should be removed.(•£âäùÿÿÿÿ
+K
+java:S1854"5Remove this useless assignment to local variable "b".(àÌèì
+;
+java:S2629)"%Invoke method(s) only conditionally. (›˜¤ı
+S	java:S1067"9Replace this use of System.out or System.err by a logger.(—òŞçÿÿÿÿÿ
+<
+java:S2129"!Remove this "Integer" constructor(äâ“Ğøÿÿÿÿ
+J
+java:S1874o"/Remove this use of "Integer"; it is deprecated.(¹Ãçùÿÿÿÿ
+Q	java:S1256"<This block of commented-out lines of code should be removed.(¦µšı
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ß½Áò
+K
+java:S3655L"0Call "b.isPresent()" before accessing the value.(ù€Á¤ûÿÿÿÿ
+P
+java:S1854h":Remove this useless assignment to local variable "person".(°÷şˆ
+<
+java:S2129p"!Remove this "Integer" constructor(ë›¼üÿÿÿÿ
+P
+java:S1854"5Remove this useless assignment to local variable "a".(–•³¯şÿÿÿÿ
+M
+java:S18542"7Remove this useless assignment to local variable "oP2".(ô»£ä
+<
+java:S2129J"!Remove this "Integer" constructor(Ö‡ã¸üÿÿÿÿ
+J
+java:S1874J"/Remove this use of "Integer"; it is deprecated.(Ö‡ã¸üÿÿÿÿ
+@
+java:S1481&"*Remove this unused "oStr3" local variable.(ˆÌôå
+u
+java:S1488i"_Immediately return this expression instead of assigning it to the temporary variable "person2".(ÁÒê
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ä‚èûşÿÿÿÿ
+A
+java:S1481"&Remove this unused "a" local variable.(–•³¯şÿÿÿÿ
+A
+java:S1481h"+Remove this unused "person" local variable.(°÷şˆ
+>
+java:S14812"(Remove this unused "oP2" local variable.(ô»£ä
+O
+java:S1854&"9Remove this useless assignment to local variable "oStr3".(ˆÌôå
+J
+java:S1874"/Remove this use of "Integer"; it is deprecated.(äâ“Ğøÿÿÿÿ
+<
+java:S1481"&Remove this unused "b" local variable.(àÌèì
+V	java:S125*"<This block of commented-out lines of code should be removed.(·¦ÈÙÿÿÿÿÿ
+J
+java:S1874p"/Remove this use of "Integer"; it is deprecated.(ë›¼üÿÿÿÿ
+o
+java:S1192Y"YDefine a constant instead of duplicating this literal "ç¬¬ä¸€ä¸ªå‚æ•°å­˜åœ¨ï¼š" 3 times.(Ë¼©ã
+V	java:S125("<This block of commented-out lines of code should be removed.(Ëİµ»ÿÿÿÿÿ

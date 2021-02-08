@@ -1,0 +1,15 @@
+
+U	java:S106&"9Replace this use of System.out or System.err by a logger.(ÃÌÀø8¯ùÄï¦.
+g	java:S1125"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8 ø¦.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(´ôñÅ
+^
+java:S1128"ARemove this unused import 'java.io.UnsupportedEncodingException'.(Ãµ…“8®§àí¦.
+[
+java:S4719"9Replace charset name argument with StandardCharsets.UTF_8(ˆÜÆúÿÿÿÿ8¾Ç›ï¦.
+Z	java:S106$"9Replace this use of System.out or System.err by a logger.(û¶Ô¡üÿÿÿÿ8ºøŸï¦.
+g	java:S112F"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8 ø¦.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(í ßë8áí¦.
+Z	java:S106("9Replace this use of System.out or System.err by a logger.(şıÁÁÿÿÿÿÿ8 ø¦.
+Z	java:S106+"9Replace this use of System.out or System.err by a logger.(”šñ¸úÿÿÿÿ8 ø¦.
+[
+java:S4719"9Replace charset name argument with StandardCharsets.UTF_8(ÎÕÇõûÿÿÿÿ8ãÉßí¦.

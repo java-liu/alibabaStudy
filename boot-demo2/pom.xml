@@ -20,16 +20,16 @@
 
     <dependencies>
         <!--redis -->
-        <dependency>
+       <!-- <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-redis</artifactId>
-        </dependency>
+        </dependency>-->
         <!--redisson-->
-        <dependency>
+        <!--<dependency>
             <groupId>org.redisson</groupId>
             <artifactId>redisson-spring-boot-starter</artifactId>
             <version>3.12.5</version>
-        </dependency>
+        </dependency>-->
         <!--热部署-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -75,6 +75,11 @@
             <artifactId>spring-boot-starter-web</artifactId>
             <version>2.1.6.RELEASE</version>
             <scope>compile</scope>
+        </dependency>
+        <!-- jdbc 如果添加，就要配置四大参数，要么配置，要么不用-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-jdbc</artifactId>
         </dependency>
         <!--整合mybatis-->
         <dependency>

@@ -1,0 +1,22 @@
+
+X
+java:S1854"6Remove this useless assignment to local variable "sb".(€ê±Õúÿÿÿÿ8ïìÉ ©.
+c
+java:S5361="HReplace this call to "replaceAll()" by a call to the "replace()" method.(³˜Æüÿÿÿÿ
+j	java:S100H"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùïé˜8‘æÈ ©.
+I
+java:S1481"'Remove this unused "sb" local variable.(€ê±Õúÿÿÿÿ8ïìÉ ©.
+E
+java:S1481"(Remove this unused "str" local variable.(”¼“Ž8ÈæÏ–§.
+S	java:S106>"9Replace this use of System.out or System.err by a logger.(ý·Êôýÿÿÿÿ
+Z	java:S106M"9Replace this use of System.out or System.err by a logger.(²Â„ïúÿÿÿÿ8‘æÈ ©.
+U	java:S106N"9Replace this use of System.out or System.err by a logger.(Ÿ»ã‡8‘æÈ ©.
+]	java:S125"<This block of commented-out lines of code should be removed.(ºÙ›Þýÿÿÿÿ8ÈæÏ–§.
+T
+java:S1854"7Remove this useless assignment to local variable "str".(”¼“Ž8ÈæÏ–§.
+]	java:S125J"<This block of commented-out lines of code should be removed.(ü„„•ùÿÿÿÿ8‘æÈ ©.
+T	java:S106D"9Replace this use of System.out or System.err by a logger.(üûÍq8š²¦µ¦.
+_
+java:S1128"DRemove this unused import 'com.mysql.cj.x.protobuf.MysqlxDatatypes'.(Ê‹êýÿÿÿÿ
+Q	java:S1252"<This block of commented-out lines of code should be removed.(³Ò·ë
+T	java:S106I"9Replace this use of System.out or System.err by a logger.(üûÍq8‘æÈ ©.

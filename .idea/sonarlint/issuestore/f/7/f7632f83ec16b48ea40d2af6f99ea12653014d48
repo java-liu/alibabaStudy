@@ -1,0 +1,23 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ó«Ü‹øÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Şı–Š
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(‡ÿıòıÿÿÿÿ
+N	java:S106E"9Replace this use of System.out or System.err by a logger.(ğÙ¶¢
+e
+java:S1128"ORemove this unused import 'com.sun.org.apache.bcel.internal.generic.LoadClass'.(‘ƒÅÎ
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İÜ‰Ğşÿÿÿÿ
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(˜·¯Åúÿÿÿÿ
+S	java:S106="9Replace this use of System.out or System.err by a logger.(èå¯èıÿÿÿÿ
+S	java:S106B"9Replace this use of System.out or System.err by a logger.(¡ªìòüÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(²¨ç÷
+h	java:S100L"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦³±×ıÿÿÿÿ
+K
+java:S1191"5Use classes from the Java API instead of Sun classes.(‘ƒÅÎ
+S	java:S106P"9Replace this use of System.out or System.err by a logger.(úõ–áùÿÿÿÿ
+c	java:S100'"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ€úğ
+b	java:S1007"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šõ‡ 
+S	java:S106>"9Replace this use of System.out or System.err by a logger.(½À˜èıÿÿÿÿ
+V
+java:S1128"@Remove this unused import 'java.time.temporal.TemporalAdjuster'.(ª†‚æ
+N	java:S106/"9Replace this use of System.out or System.err by a logger.(Ñá®
+N	java:S1063"9Replace this use of System.out or System.err by a logger.(¯ô¢ô
