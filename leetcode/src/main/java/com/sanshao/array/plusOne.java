@@ -103,7 +103,20 @@ public class plusOne {
     }
 
     public static void main(String[] args){
-        int[] digits = {0};
-        Commons.print(plusOne2(digits));
+        //int[] digits = {0};
+        //Commons.print(plusOne2(digits));
+        short s1 = 1;
+        //s1 = s1 + 1会报错
+        //s1 = s1 + 1;
+        // s1 += 1;不会报错，隐式转换，相当于s1 = short(s1 + 1);
+        s1 += 1;
+        System.out.println(s1);
+        //1.8是双精度数字（double）
+        float f1 = (float)1.8;
+        int x = 1,y = 0;
+        if(x > 0 & ++y > 0){
+            System.out.println("y =" + y);
+            System.out.println("x =" + x);
+        }
     }
 }
