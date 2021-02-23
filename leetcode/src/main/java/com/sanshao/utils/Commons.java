@@ -1,4 +1,4 @@
-package com.sanshao.array;
+package com.sanshao.utils;
 
 /**
  * @Description: 数组公共类
@@ -10,6 +10,14 @@ public class Commons {
     public static void print(int[] nums){
         StringBuilder sb = new StringBuilder();
         for (int num : nums) {
+            sb.append(num + " ");
+        }
+        System.out.println(sb.toString());
+    }
+
+    public static void print(char[] s){
+        StringBuilder sb = new StringBuilder();
+        for (char num : s) {
             sb.append(num + " ");
         }
         System.out.println(sb.toString());
