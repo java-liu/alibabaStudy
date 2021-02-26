@@ -39,13 +39,31 @@ public class ReverseString {
             left++;
             right--;
         }
-
     }
 
     public static void main(String[] args){
         //Commons.print();
         char[] s = {'h','e','l','l','o'};
-        reverseString(s);
-        Commons.print(s);
+
+        char ch1, ch2;
+        ch1 = 'Y';
+        //char 字符数据类型的范围为0到65535
+        ch2 = 88;
+        System.out.println("ch1=" + ch1 + ",ch2= " + ch2);
+        char ch3 = '\u0041';
+        char ch4 = '\377';
+        char ch5 = '/';
+        //char c3 = '\a';
+        char c1 = '\n';
+        char c2 = '\\';
+        System.out.println("ch3=" + ch3 + ",ch4= " + ch4);
+        //reverseString(s);
+        //Commons.print(s);
+
+
+        char cha1 = 'X';
+        System.out.println("cha1=" + cha1);
+        cha1++;
+        System.out.println("cha1 is now " + cha1);
     }
 }
