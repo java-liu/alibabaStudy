@@ -4,7 +4,7 @@ package com.sanshao.offer;
  *
  */
 public class SingletonDemo2 {
-    private static SingletonDemo2 instance = null;
+    private static volatile SingletonDemo2 instance = null;
     private SingletonDemo2(){
         System.out.println(Thread.currentThread().getName() + "\t 我是构造方法SingletonDemo()");
     }
