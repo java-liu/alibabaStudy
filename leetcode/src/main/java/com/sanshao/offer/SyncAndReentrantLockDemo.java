@@ -1,7 +1,6 @@
 package com.sanshao.offer;
 
 
-import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
@@ -14,17 +13,24 @@ class ShareResource
     private Condition c2 = lock.newCondition();
     private Condition c3 = lock.newCondition();
     //1 判断
-    public void print(int i,int num, int count){
+    public void print(int num, int count){
         lock.lock();
         try{
-            while( number != i){
-                if(number != i){
+            //第一次,number = 1,c1不需要等待,去干活,
+            //干完活,唤醒c2,number=2,此时c1.await()
+            //c2唤醒,判断number != 2,c2不等待,c2干活,
+            //c2干完活,唤醒c3,number=3,此时c2.await()
+            //c3唤醒,判断number != 3,c3不等待,c3干活,
+            if(num == 1){
+                while( number != 1){
                     c1.await();
                 }
-                if(number != i){
+            }else if(num == 2){
+                while( number != 2){
                     c2.await();
                 }
-                if(number != i){
+            }else if(num == 3){
+                while( number != 3){
                     c3.await();
                 }
             }
@@ -45,7 +51,6 @@ class ShareResource
                 //通知下一个线程
                 c1.signal();
             }
-
         }catch(Exception e){
             e.printStackTrace();
         }finally{
@@ -90,17 +95,17 @@ public class SyncAndReentrantLockDemo {
         ShareResource shareResource = new ShareResource();
         new Thread(() -> {
             for (int i = 1; i <= 10 ; i++) {
-                shareResource.print(1, i ,5);
+                shareResource.print(1 ,5);
             }
         },"A").start();
         new Thread(() -> {
             for (int i = 1; i <= 10 ; i++) {
-                shareResource.print(2, i ,10);
+                shareResource.print(2,10);
             }
         },"B").start();
         new Thread(() -> {
             for (int i = 1; i <= 10 ; i++) {
-                shareResource.print(3, i ,15);
+                shareResource.print(3,15);
             }
         },"C").start();
     }
