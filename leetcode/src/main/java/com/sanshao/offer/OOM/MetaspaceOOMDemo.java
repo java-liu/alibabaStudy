@@ -1,4 +1,4 @@
-package com.sanshao.offer;
+package com.sanshao.offer.OOM;
 
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;
