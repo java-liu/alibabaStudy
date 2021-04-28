@@ -12,6 +12,17 @@ package com.sanshao.offer.GC;
  *
  * 3
  * -Xms10m -Xmx10m -XX:+PrintGCDetails -XX:+UseParallelGC -XX:+PrintCommandLineFlags  (PSYoungGen+ParOldGen)
+ * 4
+ * 4.1
+ * -Xms10m -Xmx10m -XX:+PrintGCDetails -XX:+PrintCommandLineFlags -XX:+UseParallelOldGC (PSYoungGen+ParOldGen)
+ * 4.2 不加就是默认UseParallelGC
+ * -Xms10m -Xmx10m -XX:+PrintGCDetails -XX:+PrintCommandLineFlags                       (PSYoungGen+ParOldGen)
+ * 5
+ * -Xms10m -Xmx10m -XX:+PrintGCDetails -XX:+PrintCommandLineFlags -XX:+UseConcMarkSweepGC (Par new generation + concurrent generation)
+ * 6
+ * -Xms10m -Xmx10m -XX:+PrintGCDetails -XX:+PrintCommandLineFlags -XX:+UseG1GC
+ * 7 (实际上在java8已经被优化掉了，没有了)
+ * -Xms10m -Xmx10m -XX:+PrintGCDetails -XX:+PrintCommandLineFlags -XX:+UseSerialOldGC
  * @Author: Liuys
  * @CreateDate: 2021/4/21 11:27
  * @Version: 1.0
