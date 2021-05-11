@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.6.RELEASE</version>
+        <version>2.3.3.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
@@ -50,6 +50,16 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+            <exclusions>
+                <exclusion>
+                    <!--unit-vintage-engine 是 JUnit 4 中使用的测试引擎。-->
+                    <!--junit-jupiter-engine 是 JUnit 5 中使用的测试引擎。-->
+                    <!--如果Spring项目使用的新的Spring Boot（2.0之后的）版本的话，应该默认使用了JUnit 5的引擎，因此为了兼容性，需要在Spring-boot-start-test
+                    这个POM引用的时候将JUnit 4的引擎去除掉-->
+                    <groupId>org.junit.vintage</groupId>
+                    <artifactId>junit-vintage-engine</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -60,13 +70,13 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-            <version>2.1.6.RELEASE</version>
+            <!--<version>2.1.6.RELEASE</version>-->
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-            <version>2.1.6.RELEASE</version>
+            <!--<version>2.1.6.RELEASE</version>-->
             <scope>compile</scope>
         </dependency>
         <!--整合mybatis-->
@@ -91,6 +101,16 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-freemarker</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.19</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 

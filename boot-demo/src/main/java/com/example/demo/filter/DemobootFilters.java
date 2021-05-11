@@ -17,7 +17,7 @@ import java.util.Arrays;
  * @Verson 1.0
  **/
 @Configuration
-public class DemobootFilters implements WebMvcConfigurer {
+public abstract class DemobootFilters implements WebMvcConfigurer {
     /**
      * 可以直接访问static文件
      * /**  前面不能加static,加了之后不能访问（不知道为啥）

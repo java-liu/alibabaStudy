@@ -1,6 +1,9 @@
 package com.sanshao.lock;
 
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * @Description: 使用synchronized,wait,
@@ -20,7 +23,36 @@ import java.util.concurrent.TimeUnit;
  */
 public class SynchronizedDemo {
     static Object objectLock = new Object();//同一把锁，类似资源类
+    static Lock lock = new ReentrantLock();
+    static Condition condition = lock.newCondition();
     public static void main(String[] args) {
+        //synchronizedWaitNotify();
+        new Thread(() -> {
+            lock.lock();
+            try{
+                System.out.println(Thread.currentThread().getName() + "\t" +"--------come in");
+                try {
+                    condition.await();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                System.out.println(Thread.currentThread().getName() + "\t--------被唤醒");
+            }finally {
+                lock.unlock();
+            }
+        },"A").start();
+        new Thread(() -> {
+            lock.lock();
+            try{
+                condition.signal();
+                System.out.println(Thread.currentThread().getName() + "\t--------通知");
+            }finally {
+                lock.unlock();
+            }
+        },"B").start();
+    }
+
+    private static void synchronizedWaitNotify() {
         new Thread(() -> {
             synchronized (objectLock){
                 try {
