@@ -7,6 +7,11 @@
             <property name="id" value="1"></property>
             <property name="name" value="zhangsan"></property>
         </bean>
+        <bean id="a" class="com.example.demo.CircularDependencies.A" scope="singleton">
+            <property name="b" ref="b"/>
+        </bean>
+        <bean id="b" class="com.example.demo.CircularDependencies.B" scope="singleton">
+            <property name="a" ref="a"/>
+        </bean>
     </beans>
-
 </beans>

@@ -1,7 +1,6 @@
 package com.maizi.thread;
 
 
-import org.junit.jupiter.api.Test;
 
 /**
  * 题目：交替打印FooBar
