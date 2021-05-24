@@ -1,11 +1,15 @@
 package com.liuys.study.boot_redis02.controller;
 
+import org.redisson.Redisson;
+import org.redisson.api.RLock;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
+import redis.clients.jedis.Jedis;
 
+import java.util.List;
 import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 
@@ -25,15 +29,15 @@ public class GoodsController {
     @Value("${server.port}")
     private String serverPort;
 
+    @Autowired
+    private Redisson redisson;
+
     @GetMapping("/buyGoods")
     public String buyGoods(){
         String value = UUID.randomUUID().toString() + Thread.currentThread().getName();
+        RLock lock = redisson.getLock(REDIS_LOCK);
+        lock.lock();
         try {
-            Boolean flag = stringRedisTemplate.opsForValue().setIfAbsent(REDIS_LOCK, value);
-            //stringRedisTemplate.expire(REDIS_LOCK,10L, TimeUnit.SECONDS);
-            if(!flag){
-                return "抢锁失败";
-            }
             String result = stringRedisTemplate.opsForValue().get("goods:001");
             int goodsNumber = result == null ? 0 : Integer.parseInt(result);
 
@@ -47,7 +51,14 @@ public class GoodsController {
             }
             return "商品已经售完" + "\t"+ "服务提供端口：" + serverPort;
         } finally {
-            stringRedisTemplate.delete(REDIS_LOCK);
+            /*if(lock.isLocked()){
+                if(lock.isHeldByCurrentThread()){
+                    lock.unlock();
+                }
+            }*/
+            if(lock.isLocked() && lock.isHeldByCurrentThread()){
+                lock.unlock();
+            }
         }
     }
 }
