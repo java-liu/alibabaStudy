@@ -12,6 +12,7 @@
         <module>maven-web</module>
         <module>开课吧</module>
         <module>leetcode</module>
+        <module>IOStudy</module>
     </modules>
     <properties>
         <guava.version>16.0.1</guava.version>
