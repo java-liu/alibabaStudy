@@ -15,6 +15,7 @@
         <module>IOStudy</module>
         <module>designPattern</module>
         <module>rabbitmq-hello</module>
+        <module>jvmStudy</module>
     </modules>
     <properties>
         <guava.version>16.0.1</guava.version>
