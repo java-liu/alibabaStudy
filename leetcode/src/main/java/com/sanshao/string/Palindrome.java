@@ -30,6 +30,8 @@ public class Palindrome {
         if(s.length() == 0){
             return false;
         }
+        //双指针，如果不是字母或者数字就跳过
+        //方法Character.isLetterOrDigit(char c)判断一个char是否是数字或者字符
         int left = 0, right = s.length() - 1;
         while(left < right){
             while(left < right && !Character.isLetterOrDigit(s.charAt(left))){
