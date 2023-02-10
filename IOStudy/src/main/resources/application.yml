@@ -1,0 +1,10 @@
+server:
+  port: 8099
+
+minio:
+  endpoint: http://182.92.76.182:9000
+  port: 9000
+  accessKey: myminioadmin
+  secretKey: myminioadmin
+  secure: false
+  bucketName: "terminal"

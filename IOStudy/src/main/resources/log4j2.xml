@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="error" monitorInterval="30">
+    <Properties>
+        <Property name="baseDir">log</Property>
+    </Properties>
+    <!--先定义所有的appender-->
+    <appenders>
+        <!--这个输出控制台的配置-->
+        <Console name="Console" target="SYSTEM_OUT">
+            <!--控制台只输出level及以上级别的信息（onMatch），其他的直接拒绝（onMismatch）-->
+            <ThresholdFilter level="trace" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout pattern="%d %5p %c:%L - %m %throwable{}%n"/>
+        </Console>
+        <!--异步日志配置，指向配置引用AppenderRef-->
+        <Async name="ASYNC" bufferSize="262144" includeLocation="true">
+            <AppenderRef ref="RollingFile"/>
+        </Async>
+        <!--日志文件配置，filePattern为日志文件名称的格式-->
+        <RollingFile name="RollingFile" fileName="${baseDir}/info.log" filePattern="${baseDir}/info.log.%d{yyyy-MM-dd}">
+            <!--日志内容格式-->
+            <PatternLayout pattern="%d %5p %c:%L - %m %throwable{separator( --> )}%n"/>
+            <!--依据时间创建新的日志文件：1d-->
+            <TimeBasedTriggeringPolicy interval="1"/>
+            <DefaultRolloverStrategy>
+                <!-- 在轮转时，删除7天之前的，命名符合规则的文件 -->
+                <Delete basePath="${baseDir}">
+                    <IfFileName glob="info.log.*"/>
+                    <IfLastModified age="7d"/>
+                </Delete>
+            </DefaultRolloverStrategy>
+        </RollingFile>
+    </appenders>
+    <!--然后定义logger，只有定义了logger并引入的appender，appender才会生效-->
+    <loggers>
+        <root level="INFO">
+            <appender-ref ref="Console"/>
+            <appender-ref ref="RollingFile"/>
+        </root>
+        <!--这里配置 过滤日志 -->
+        <logger name="org.hibernate.validator" level="ERROR"/>
+    </loggers>
+</configuration>

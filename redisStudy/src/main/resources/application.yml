@@ -1,0 +1,22 @@
+server:
+  port: 8087
+  servlet:
+    context-path: /redisStudy
+
+spring:
+  application:
+    name: redis-study-server
+  redis:
+    database: 1
+    host: 127.0.0.1
+    password:
+    ssl: false
+    port: 6379
+    timeout: 10000  #连接超时时间 单位 ms
+    lettuce:
+      pool:
+        enabled: false
+        max-idle: 200  #连接池中的最大空闲连接,默认值是8
+        min-idle: 200  #连接池中的最小空闲连接,默认值是0
+        max-active: 2000 #如果赋值为-1,则表示不限制;pool 已经分配了 maxActive 个 jedis 实例,则此时 pool 的状态为 exhausted(耗尽)
+        max-wait: 1000   #等待可用连接的最大时间,单位毫秒,默认值为-1,表示永不超时

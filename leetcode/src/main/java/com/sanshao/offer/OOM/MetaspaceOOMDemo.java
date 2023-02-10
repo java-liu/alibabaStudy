@@ -32,6 +32,7 @@ public class MetaspaceOOMDemo {
         try {
             while (true){
                 i++;
+                //cglib jar包
                 Enhancer enhancer = new Enhancer();
                 enhancer.setSuperclass(OOMTest.class);
                 enhancer.setUseCache(false);
