@@ -1,8 +1,5 @@
 package com.ljava.file;
 
-import org.apache.logging.log4j.LogManager;
-
-import org.apache.logging.log4j.Logger;
 
 import java.io.File;
 import java.io.IOException;
@@ -15,7 +12,7 @@ import java.io.IOException;
  * 2.File 类的构造方法不会校验这个文件或者文件夹是否真实存在,因此无论如该路径下是否存在文件或者目录,都不影响 File对象的创建
  */
 public class FileInfo {
-    private static final Logger log = LogManager.getLogger();
+    //private static final Logger log = LogManager.getLogger();
     /**
      * 常用方法
      * 1.获取功能的方法
@@ -42,8 +39,6 @@ public class FileInfo {
         System.out.println("此目录的名称为:" + file1.getName());
         System.out.println("此目录的长度为:" + file1.length());
 
-        log.info("此目录的长度为:{}",  file1.length());
-        log.error("出现错误", "error");
 
     }
 
@@ -120,10 +115,24 @@ public class FileInfo {
         System.out.println(f4.delete()); //true
     }
 
+    public void demo5() throws IOException {
+        String path ="/Users/liuys/video/file/演示项目1019(sjx20230512123434)/评标场地视频/(客场)陕西协会场地(王毓飞)/第一评标区(王毓飞)";
+        String fileName = "27_20231019160000_2.mp4";
+        fileName = "a.mp4";
+        File file = new File(path);
+        if(!file.exists()){
+            file.mkdirs();
+        }
+        File file1 = new File(path + "/" + fileName);
+        if(!file1.exists()){
+            file.createNewFile();
+        }
+    }
+
 
     public static void main(String[] args) throws IOException {
         FileInfo fileInfo = new FileInfo();
-        fileInfo.demo1();
+        fileInfo.demo5();
         //fileInfo.demo2();
         //fileInfo.demo3();
         //fileInfo.demo4();
