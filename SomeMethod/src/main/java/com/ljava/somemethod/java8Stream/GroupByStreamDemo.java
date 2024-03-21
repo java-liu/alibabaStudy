@@ -7,7 +7,8 @@ import java.util.stream.Collectors;
 
 public class GroupByStreamDemo {
     public static void main(String[] args) {
-        method1();
+        //method1();
+        method2();
     }
     public static void method1(){
         List<Person> personList = new ArrayList<Person>();
@@ -27,5 +28,29 @@ public class GroupByStreamDemo {
         System.out.println("员工按薪资是否大于8000分组情况：" + part);
         System.out.println("员工按性别分组情况：" + group);
         System.out.println("员工按性别、地区：" + group2);
+    }
+
+    /**
+     * 生成字节数组
+     * System.arraycopy测试
+     */
+    public static void method2(){
+        byte[] a = new byte[64];
+        byte[] byteArray = new byte[32]; // 定义一个包含32个元素的字节数组
+
+// 初始化字节数组
+        for (int i = 0; i < byteArray.length; i++) {
+            byteArray[i] = (byte) i; // 这里将每个元素初始化为其索引值
+        }
+        // 打印字节数组的内容
+        for (int i = 0; i < byteArray.length; i++) {
+            System.out.print(byteArray[i] + " ");
+        }
+        System.out.println();
+        System.arraycopy(byteArray, 0, a, 32, byteArray.length);
+        // 打印字节数组的内容
+        for (int i = 0; i < a.length; i++) {
+            System.out.print(a[i] + " ");
+        }
     }
 }
