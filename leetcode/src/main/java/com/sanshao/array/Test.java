@@ -15,13 +15,13 @@ public class Test {
     public static void main(String[] args){
         String role ="1,4";
         String[] roles = role.split(",");
-        //System.out.println(roles.length);
-        //Arrays.stream(roles).forEach(System.out::println);
+        System.out.println(roles.length);
+        Arrays.stream(roles).forEach(System.out::println);
 
 
 
         List<String>  list = Arrays.stream(roles).filter(ro -> ro.equals("4")).collect(Collectors.toList());
-        //list.stream().forEach(System.out::println);
+        list.stream().forEach(System.out::println);
         List<Integer> iList = new ArrayList<>();
         iList.add(1);
         iList.add(2);

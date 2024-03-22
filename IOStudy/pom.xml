@@ -106,6 +106,17 @@
             <scope>runtime</scope>
             <optional>true</optional>
         </dependency>
+        <!-- 视频转码压缩技术-->
+        <dependency>
+            <groupId>ws.schild</groupId>
+            <artifactId>jave-core</artifactId>
+            <version>3.4.0</version>
+        </dependency>
+        <dependency>
+            <groupId>ws.schild</groupId>
+            <artifactId>jave-nativebin-osx64</artifactId>
+            <version>3.4.0</version>
+        </dependency>
         <!--<dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
