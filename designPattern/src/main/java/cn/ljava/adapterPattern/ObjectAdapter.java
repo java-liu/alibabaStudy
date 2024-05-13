@@ -24,4 +24,14 @@ public class ObjectAdapter implements VGA{
     public void vgaMethod() {
         usb.usbMethod();
     }
+
+    @Override
+    public void a() {
+
+    }
+
+    @Override
+    public void b() {
+
+    }
 }

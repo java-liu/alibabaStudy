@@ -5,7 +5,8 @@ public class Client {
         //对象适配器
        // objectAdapterTest();
         //类适配器
-        classAdapterTest();
+        //classAdapterTest();
+        interfaceAdapterTest();
     }
 
     /**
@@ -29,5 +30,13 @@ public class Client {
         //通过Projector将USB对象映射成VGA对象, 调用projector的projection方法,实际上会调用VGA的vgaMethod()方法
         Projector projector = new Projector();
         projector.projection(vga);
+    }
+
+    /**
+     * 接口适配器, InterfaceAdapterImpl不用实现b()和c()方法
+     */
+    private static void interfaceAdapterTest(){
+        InterfaceAdapter adapter = new InterfaceAdapterImpl();
+        adapter.vgaMethod();
     }
 }

@@ -14,4 +14,14 @@ public class ClassAdapter extends USBImpl implements VGA{
     public void vgaMethod() {
         super.usbMethod();
     }
+
+    @Override
+    public void a() {
+
+    }
+
+    @Override
+    public void b() {
+
+    }
 }

@@ -6,4 +6,7 @@ package cn.ljava.adapterPattern;
  */
 public interface VGA {
     void vgaMethod();
+
+    void a();
+    void b();
 }

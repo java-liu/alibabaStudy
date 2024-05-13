@@ -5,4 +5,14 @@ public class VGAImpl implements VGA{
     public void vgaMethod() {
         System.out.println("this is vga method");
     }
+
+    @Override
+    public void a() {
+
+    }
+
+    @Override
+    public void b() {
+
+    }
 }
