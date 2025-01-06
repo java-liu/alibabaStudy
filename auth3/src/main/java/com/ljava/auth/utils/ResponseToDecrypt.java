@@ -1,0 +1,27 @@
+package com.ljava.auth.utils;
+
+import cn.hutool.crypto.asymmetric.KeyType;
+import cn.hutool.crypto.asymmetric.SM2;
+import org.bouncycastle.jce.provider.BouncyCastleProvider;
+
+import java.security.Security;
+
+
+public class ResponseToDecrypt {
+    static {
+        Security.addProvider(new BouncyCastleProvider());
+    }
+
+    public static void main(String[] args) {
+        String data = "0445426a1c8ce9f55bf6049e4ecfe88ea6e1983614c4713aec682e67ef60c97061101455259d0360a0e39720791754b5108d0f45dd3094756218035c98402978ddf5c2983f8fd9e2241f09d7d77341b0f5598def0d688dbbe072735d939135a46ef96effc8b1ab39f187cb344469f214857cec7b356f08b0f2d316dbcc0f64981e9872f3445a2b6ef74bf3a4673c2cfdb45bffd8d5adeb65a3325e94effd6a9a04f51bdb504e471a48c6d1e28225485d907090335b8f57c790147e3de9123bfb72733c5898b7bd02d7c671898a6b7baca30caeefffe868af1103136d04f902ba6e201f42c4395d1a577f6d93df61a5cd4abc5d9cedc2bc3cedef912d61a83f8306541cb66a4aabb85cb66ac858d141f1f50f8fe6013b66969b08fa5d49db501b8001c2b3bae78ede8f43c7773827438e30978eaef4d2f2f57acd033d89e65551a92276589b05273013a4885feecc5e739c244c6a916f3c9d154bfcccdd345e480c45d0c8135eb1744d4bf5ef39dacfd360a38bdfdf8ee09b64820a85c34e0d97b817a96371001f1730a54ed7e9e0d5c7e2475a0b131a52e5dd7efd2508dbfc1ab6e5d222c565950eeabecb4ad5372cab6bb8414036aa8dc78f86ac7db61eb82d52efc1683cf15e403e163bfd6cb6c7b65f62872f6ed0685ffc002d51163f8efb3857f26ac72c3a3150a2de3a7c9d72afc5754101c6b015ae25b47a46b137f9495d8c27177f0d5f1c2562d7dd3a456d9f9142c3bcb60ea3a9df27089be879bac6b2d5c681ce64802e571b1c8ac13869f141319b34b78634565f62b0a1c86bce9eab88a5becbaad09f9d25a52bf6eb05e89be620ee4bc9fca20d6f69c98ec097acb4574676ee23e9dfcae7810260d2dba44b7f46d404bd3b0907d85c7f3365bc0c2dc1fafef37942c370612c1cbe7f3cefb77f0303ee3838911523fe5c006ea1a9567cdcbf2bb7631c";
+
+        printDecrypt(data);
+    }
+
+    private static void printDecrypt(String data) {
+        SM2 sm2 = new SM2("MIGTAgEAMBMGByqGSM49AgEGCCqBHM9VAYItBHkwdwIBAQQgHRu0uEmZKkVq5ug7YqjMYzFVLaOXcU/2DVainRIacSKgCgYIKoEcz1UBgi2hRANCAAS/mgq5PMLtgOUaeZfKgZ3A//ZHtPdHWjfhjr/W+UjwyLjC/0ZK0iUGdzTuVdYcaxzQOqKHOp0X4MGJtOeqvjiN", null);
+        System.out.println(sm2.decryptStr(data, KeyType.PrivateKey));
+    }
+
+
+}

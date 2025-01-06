@@ -28,65 +28,64 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bab48862-4d66-4b46-a4f8-8a635e87c46c" name="Default Changelist" comment="redis">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/0/201ab647582335f5c15a08d7e1c0ea492687b3b9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/0/20958cb11e8c97a5a67558dcf1cfddc6011df525" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/6/367eca64f24a9997bbd8cba019f651cf61aa29cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/b/3b63962158fa3a4afdae481f2aa7bb172d2b4800" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5f08caed5f3340504bfb4177e436e76c3e5a06cb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/79d95bcf1a5ff5e6276e50c7163d9cdec5bad866" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7eb49af3db9dc81c4e741b2821e9c1d2ce2da6d6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/0/80a789409ea8a5883a031e364a696ae6c86b2e5e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/864554b1ec9a796b19bc370e192bc54e0dc05a18" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/8687ab89b197afb0bb16cc55e34308c4d19627aa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/1/9173ac6ebf5da8b0948d9791824c1bf9848176e6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9a542f9f52ac1beea5eef7f2617a304efd9358cb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a74b090cb04cbddd9b12622fcf583145ca8f4977" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b488c23a5608cd8f3ab17a397b4bf093d49e5087" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c403e55e2807b5cbbab24d8f74d11dbcaa21f77e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/d/dd437c62db6b94e33f87282da22f9b59bed87057" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/ee80fa8e4fc7834df386f45d73756aab388b0490" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/7/f741f54b9313a828102306d91d9bd5efdb73e057" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/7/f7632f83ec16b48ea40d2af6f99ea12653014d48" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fbd55e873d643ceb609cc6b39c30d4d11408d6ff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/c/fc81cd654f86e9b726c048681632eeadf529acc6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-demo2/src/main/java/com/example/demo/controller/GetController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-demo2/src/main/java/com/example/demo/controller/order/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-demo2/src/main/java/com/example/demo/current/OrderLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-demo2/src/main/java/com/example/demo/entity/Depart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-demo2/src/main/java/com/example/demo/entity/order/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/sanshao/array/ContainsDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/sanshao/array/MaxProfit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/sanshao/array/Rotate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/sanshao/array/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/utils/DateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/utils/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/开课吧/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-demo2/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-demo2/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-demo2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-demo2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-demo2/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-demo2/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-demo2/src/main/java/com/example/demo/controller/SampleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-demo2/src/main/java/com/example/demo/controller/SampleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-demo2/src/main/java/com/example/demo/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-demo2/src/main/java/com/example/demo/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-demo2/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-demo2/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven-web/target/maven-web/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
-    <list id="3bf60f7c-a53d-4a6a-89c6-1799b84f738a" name="no Commit" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/alibabaStudy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SomeMethod/src/main/java/com/ljava/somemethod/enumTest/Day.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SomeMethod/src/main/java/com/ljava/somemethod/enumTest/enum.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SomeMethod/src/main/java/com/ljava/somemethod/hadoop/HdfsLineCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth3/src/main/java/com/ljava/auth/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth3/src/main/java/com/ljava/auth/config/SpringSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth3/src/main/java/com/ljava/auth/filter/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth3/src/main/java/com/ljava/auth/handler/AuthenticationSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth3/src/main/java/com/ljava/auth/module/login/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth3/src/main/java/com/ljava/auth/module/login/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth3/src/main/java/com/ljava/auth/module/login/request/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth3/src/main/java/com/ljava/auth/module/user/dao/UserRedisRespository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth3/src/main/java/com/ljava/auth/module/user/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth3/src/main/java/com/ljava/auth/utils/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth3/src/main/java/com/ljava/auth/utils/KeyGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth_2.0/src/main/java/com/ljava/auth2/user/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth_2.0/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designPattern/src/main/java/cn/ljava/strategy/note.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/src/main/java/com/ljava/excel/easytoword/ExcelReader2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/src/main/java/com/ljava/excel/easytoword/ExcelReaderWithMergedCells.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/src/main/java/com/ljava/excel/easytoword/ExcelToWordConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/src/main/java/com/ljava/excel/easytoword/WordGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/src/main/java/com/ljava/excel/exceltoword2/ExcelToWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/src/main/java/com/ljava/excel/exceltoword2/TableMerger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/src/main/java/com/ljava/excel/poitoword/Docx4jTableMerger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/src/main/java/com/ljava/excel/poitoword/ExcelReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/src/main/java/com/ljava/excel/poitoword/ExcelToWordConverter3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/src/main/java/com/ljava/excel/poitoword/WordGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/src/main/java/com/ljava/excel/toword/ExcelReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/src/main/java/com/ljava/excel/toword/ExcelReaderWithMergedCells.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/src/main/java/com/ljava/excel/toword/ExcelToWordConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/src/main/java/com/ljava/excel/toword/WordGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/liteflow-demo/src/main/java/cn/ljava/liteflowdemo/liteflow/ACmp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SomeMethod/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SomeMethod/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPattern/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/designPattern/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/main/java/com/sanshao/demo/GetRandom.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/sanshao/demo/GetRandom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/maven-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-hello/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-hello/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/开课吧/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kaikeba/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/开课吧/src/main/java/com/sanshao/control/Father.java" beforeDir="false" afterPath="$PROJECT_DIR$/kaikeba/src/main/java/com/sanshao/control/Father.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/开课吧/src/main/java/com/sanshao/control/OneServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/kaikeba/src/main/java/com/sanshao/control/OneServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/开课吧/src/main/java/com/sanshao/control/SubClass1.java" beforeDir="false" afterPath="$PROJECT_DIR$/kaikeba/src/main/java/com/sanshao/control/SubClass1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/开课吧/src/main/java/com/sanshao/control/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/kaikeba/src/main/java/com/sanshao/control/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/开课吧/src/main/java/com/sanshao/control/ThreeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/kaikeba/src/main/java/com/sanshao/control/ThreeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/开课吧/src/main/java/com/sanshao/control/TwoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/kaikeba/src/main/java/com/sanshao/control/TwoServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/开课吧/src/main/java/com/sanshao/control/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/kaikeba/src/main/java/com/sanshao/control/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/开课吧/src/main/java/com/sanshao/mybatis/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/kaikeba/src/main/java/com/sanshao/mybatis/UserDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/开课吧/src/main/java/com/sanshao/service/impl/小学生.java" beforeDir="false" afterPath="$PROJECT_DIR$/kaikeba/src/main/java/com/sanshao/service/impl/小学生.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/开课吧/src/main/java/com/sanshao/service/学生守则接口.java" beforeDir="false" afterPath="$PROJECT_DIR$/kaikeba/src/main/java/com/sanshao/service/学生守则接口.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/开课吧/src/main/java/com/sanshao/service/零食小商贩.java" beforeDir="false" afterPath="$PROJECT_DIR$/kaikeba/src/main/java/com/sanshao/service/零食小商贩.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/开课吧/src/main/java/com/sanshao/sortTest/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/kaikeba/src/main/java/com/sanshao/sortTest/InsertSort.java" afterDir="false" />
     </list>
+    <list id="3bf60f7c-a53d-4a6a-89c6-1799b84f738a" name="no Commit" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,10 +109,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Interface" />
-        <option value="Interface" />
         <option value="HTML4 File" />
         <option value="HTML File" />
         <option value="package-info" />
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="spring-beans.schema" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -122,16 +124,22 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/.idea/compiler.xml">
-      <ranges>
-        <range start1="4" end1="4" start2="4" end2="5" changelist="3bf60f7c-a53d-4a6a-89c6-1799b84f738a" />
-        <range start1="8" end1="8" start2="9" end2="10" changelist="bab48862-4d66-4b46-a4f8-8a635e87c46c" />
-        <range start1="9" end1="9" start2="11" end2="14" changelist="bab48862-4d66-4b46-a4f8-8a635e87c46c" />
-        <range start1="11" end1="11" start2="16" end2="22" changelist="bab48862-4d66-4b46-a4f8-8a635e87c46c" />
-      </ranges>
-    </file>
-  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;java-liu&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/java-liu/alibabaStudy.git&quot;,
+    &quot;accountId&quot;: &quot;d90e38e2-d285-4d86-9568-98fa12431c3e&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -139,154 +147,212 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\maven\maven-repository" />
-        <option name="mavenHome" value="D:/maven/apache-maven-3.6.1" />
-        <option name="userSettingsFile" value="D:\maven\apache-maven-3.6.1\conf\settings.xml" />
+        <option name="customMavenHome" value="$USER_HOME$/javaTools/maven/apache-maven-3.8.3" />
+        <option name="localRepository" value="$USER_HOME$/javaTools/maven/repository" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="useMavenConfig" value="false" />
+        <option name="userSettingsFile" value="$USER_HOME$/javaTools/maven/apache-maven-3.8.3/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
-        <option name="jdkForImporter" value="#JAVA_HOME" />
+        <option name="jdkForImporter" value="openjdk-21" />
         <option name="vmOptionsForImporter" value="-Xmx1024m" />
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="openjdk-21" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="1a0mWCSzHwzvXCDamVKuzlr8iFm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559121122861" />
-    <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/boot-demo" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.37312186" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ExcelToWord.executor": "Run",
+    "Application.ExcelToWordConverter.executor": "Run",
+    "Application.ExcelToWordConverter2.executor": "Run",
+    "Application.ExcelToWordConverter3.executor": "Debug",
+    "Application.HdfsLineCount.executor": "Run",
+    "Application.JwtUtil.executor": "Run",
+    "Application.KeyGenerator.executor": "Run",
+    "Application.RequestWithEncrypt.executor": "Run",
+    "Application.ResponseToDecrypt.executor": "Run",
+    "Application.TableMerger.executor": "Debug",
+    "Application.com.ljava.excel.easytoword.ExcelToWordConverter.executor": "Run",
+    "Maven.excel [clean,install].executor": "Run",
+    "Maven.excel [clean].executor": "Run",
+    "Maven.excel [install].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "Spring Boot.Application.executor": "Debug",
+    "Spring Boot.AuthApplication.executor": "Debug",
+    "Spring Boot.DemoApplication (1).executor": "Debug",
+    "Spring Boot.ExcelApplication.executor": "Debug",
+    "Spring Boot.IOStudyApplication.executor": "Debug",
+    "Spring Boot.LiteflowDemoApplication.executor": "Debug",
+    "Spring Boot.SomeMethodApplication.executor": "Debug",
+    "WebServerToolWindowFactoryState": "false",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_opened_file_path": "/Users/liuys/IdeaProjects/alibabaStudy/auth3/src/main/java/com/ljava/auth/utils",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.16110474",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "spring.configuration.checksum": "7df826fd4b18ac4c1fa8dfe09ff321f5",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.utils" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/auth3/src/main/java/com/ljava/auth/utils" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="D:\Users\IdeaProjects\demo\src\main\resources\templates" />
       <recent name="D:\Users\IdeaProjects\demo\src\main\java\com\example\demo\common" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/auth3/src/main/java/com/ljava/auth/utils" />
+      <recent name="$PROJECT_DIR$/designPattern/src/main/java/cn/ljava/strategy" />
+      <recent name="$PROJECT_DIR$/excel/src/main/java/com/ljava/excel" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ljava.auth.module.login" />
+      <recent name="com.ljava.excel.poitoword" />
+      <recent name="com.ljava.excel.easytoword" />
+      <recent name="com.sanshao.offer" />
+      <recent name="com.utils" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.ContainsDuplicate">
-    <configuration name="ContainsDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk1.8.0_181\jre" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.sanshao.array.ContainsDuplicate" />
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ExcelToWordConverter3">
+    <configuration default="true" type="JetRunConfigurationType">
       <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sanshao.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxProfit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sanshao.array.MaxProfit" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sanshao.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Rotate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sanshao.array.Rotate" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sanshao.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sanshao.array.Solution" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sanshao.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="leetcode" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="leetcode" />
       <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExcelToWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ljava.excel.exceltoword2.ExcelToWord" />
+      <module name="excel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljava.excel.exceltoword2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExcelToWordConverter3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ljava.excel.poitoword.ExcelToWordConverter3" />
+      <module name="excel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljava.excel.poitoword.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JwtUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ljava.auth.utils.JwtUtil" />
+      <module name="auth3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljava.auth.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RequestWithEncrypt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ljava.auth.utils.RequestWithEncrypt" />
+      <module name="auth3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljava.auth.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResponseToDecrypt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ljava.auth.utils.ResponseToDecrypt" />
+      <module name="auth3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljava.auth.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="auth_2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ljava.auth2.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="auth3" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ljava.auth.AuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -298,16 +364,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="demo2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
-      <module name="demo2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+    <configuration name="ExcelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="excel" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ljava.excel.ExcelApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IOStudyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="IOStudy" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ljava.IOStudyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LiteflowDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="liteflow-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.ljava.liteflowdemo.LiteflowDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SomeMethodApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="SomeMethod" />
+      <option name="PROGRAM_PARAMETERS" value="aaa bbb ccc --demo=arg" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ljava.somemethod.SomeMethodApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -396,6 +481,21 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -419,21 +519,27 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.MaxProfit" />
-      <item itemvalue="Application.Rotate" />
-      <item itemvalue="Application.ContainsDuplicate" />
+      <item itemvalue="Application.RequestWithEncrypt" />
+      <item itemvalue="Application.ResponseToDecrypt" />
+      <item itemvalue="Application.JwtUtil" />
+      <item itemvalue="Application.ExcelToWordConverter3" />
+      <item itemvalue="Application.ExcelToWord" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.AuthApplication" />
+      <item itemvalue="Spring Boot.DemoApplication (1)" />
       <item itemvalue="Spring Boot.DemoApplication" />
-      <item itemvalue="Spring Boot.demo2" />
-      <item itemvalue="Tomcat Server.tomcat7.0" />
+      <item itemvalue="Spring Boot.ExcelApplication" />
+      <item itemvalue="Spring Boot.IOStudyApplication" />
+      <item itemvalue="Spring Boot.LiteflowDemoApplication" />
+      <item itemvalue="Spring Boot.SomeMethodApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ContainsDuplicate" />
-        <item itemvalue="Application.Rotate" />
-        <item itemvalue="Application.MaxProfit" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Spring Boot.demo2" />
+        <item itemvalue="Application.ExcelToWordConverter3" />
+        <item itemvalue="Application.ExcelToWord" />
+        <item itemvalue="Application.ResponseToDecrypt" />
+        <item itemvalue="Application.RequestWithEncrypt" />
+        <item itemvalue="Application.JwtUtil" />
       </list>
     </recent_temporary>
   </component>
@@ -449,7 +555,7 @@
       </list>
     </option>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>C:\Users\John007\AppData\Roaming\Subversion</configuration>
   </component>
@@ -521,6 +627,72 @@
       <workItem from="1612248974977" duration="6566000" />
       <workItem from="1612701092235" duration="5589000" />
       <workItem from="1612789159143" duration="4615000" />
+      <workItem from="1681262796531" duration="398000" />
+      <workItem from="1681263202417" duration="1227000" />
+      <workItem from="1681264445688" duration="1846000" />
+      <workItem from="1681280272109" duration="639000" />
+      <workItem from="1681349651124" duration="600000" />
+      <workItem from="1684229393901" duration="161000" />
+      <workItem from="1684230678637" duration="5783000" />
+      <workItem from="1684287530998" duration="678000" />
+      <workItem from="1684977209535" duration="13893000" />
+      <workItem from="1686120341227" duration="3740000" />
+      <workItem from="1687658424974" duration="18230000" />
+      <workItem from="1688439286248" duration="1995000" />
+      <workItem from="1690877764670" duration="671000" />
+      <workItem from="1691638439624" duration="814000" />
+      <workItem from="1694485991122" duration="1262000" />
+      <workItem from="1697769918603" duration="2915000" />
+      <workItem from="1701395591337" duration="58000" />
+      <workItem from="1702140483832" duration="717000" />
+      <workItem from="1704250681245" duration="9346000" />
+      <workItem from="1704679313924" duration="88000" />
+      <workItem from="1706839651195" duration="753000" />
+      <workItem from="1707012284841" duration="13831000" />
+      <workItem from="1707998854403" duration="8308000" />
+      <workItem from="1709189011466" duration="595000" />
+      <workItem from="1709280875455" duration="2421000" />
+      <workItem from="1710302222143" duration="1485000" />
+      <workItem from="1710914851741" duration="25283000" />
+      <workItem from="1711676904096" duration="120000" />
+      <workItem from="1713403239927" duration="2845000" />
+      <workItem from="1713421917127" duration="64000" />
+      <workItem from="1713421996736" duration="651000" />
+      <workItem from="1714354560175" duration="11728000" />
+      <workItem from="1714964230087" duration="5338000" />
+      <workItem from="1715132496963" duration="5627000" />
+      <workItem from="1715325304685" duration="6654000" />
+      <workItem from="1715399006053" duration="6720000" />
+      <workItem from="1715849586922" duration="598000" />
+      <workItem from="1716429887952" duration="602000" />
+      <workItem from="1717140845776" duration="2927000" />
+      <workItem from="1727236221532" duration="607000" />
+      <workItem from="1727335053907" duration="619000" />
+      <workItem from="1730351233022" duration="4414000" />
+      <workItem from="1730359277792" duration="116000" />
+      <workItem from="1730359443264" duration="11286000" />
+      <workItem from="1731981149228" duration="48963000" />
+      <workItem from="1732168319833" duration="3376000" />
+      <workItem from="1732239341360" duration="9490000" />
+      <workItem from="1732257538927" duration="1689000" />
+      <workItem from="1732359637670" duration="12638000" />
+      <workItem from="1732584221520" duration="1000" />
+      <workItem from="1732585589564" duration="923000" />
+      <workItem from="1732586522458" duration="30352000" />
+      <workItem from="1733802358015" duration="9642000" />
+      <workItem from="1733984246490" duration="1155000" />
+      <workItem from="1733985950755" duration="601000" />
+      <workItem from="1733991786589" duration="125000" />
+      <workItem from="1733991930487" duration="1233000" />
+      <workItem from="1734514586960" duration="16523000" />
+      <workItem from="1734592577121" duration="2143000" />
+      <workItem from="1734658860802" duration="5178000" />
+      <workItem from="1734676271100" duration="7675000" />
+      <workItem from="1735015155332" duration="1174000" />
+      <workItem from="1735019915115" duration="11052000" />
+      <workItem from="1735116134850" duration="64000" />
+      <workItem from="1735116551091" duration="6966000" />
+      <workItem from="1735262742899" duration="42679000" />
     </task>
     <task id="LOCAL-00001" summary="list set array相互转化">
       <created>1586415960079</created>
@@ -543,20 +715,67 @@
       <option name="project" value="LOCAL" />
       <updated>1610950503172</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="线程方法">
+      <created>1702140594792</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702140594792</updated>
+    </task>
+    <task id="LOCAL-00005" summary="java8 Stream学习">
+      <created>1708005256806</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708005256806</updated>
+    </task>
+    <task id="LOCAL-00006" summary="引入mapstruct">
+      <created>1711004805984</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1711004805984</updated>
+    </task>
+    <task id="LOCAL-00007" summary="BIO学习,应用实例">
+      <created>1711102462839</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711102462839</updated>
+    </task>
+    <task id="LOCAL-00008" summary="java Optional测试">
+      <created>1714985129041</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1714985129041</updated>
+    </task>
+    <task id="LOCAL-00009" summary="适配器模式之类适配器模式与对象适配器模式">
+      <created>1715335422750</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1715335422750</updated>
+    </task>
+    <task id="LOCAL-00010" summary="结构模式之适配器模式,接口适配器实现">
+      <created>1715580544199</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1715580544199</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -566,150 +785,14 @@
     <MESSAGE value="list set array相互转化" />
     <MESSAGE value="redis" />
     <MESSAGE value="开课吧学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="开课吧学习" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="552" y="183" key="#Project_Structure" timestamp="1610952964300">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="183" key="#Project_Structure/0.0.1920.1040/1920.-75.1920.1040@0.0.1920.1040" timestamp="1610952964300" />
-    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612792370028">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.-75.1920.1040@0.0.1920.1040" timestamp="1611801292966" />
-    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612792370028" />
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1606988629785">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.-75.1920.1040@0.0.1920.1040" timestamp="1606988629785" />
-    <state x="2685" y="155" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.-75.1920.1040@1920.-75.1920.1040" timestamp="1604651631812" />
-    <state x="689" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1611801274940">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="689" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/1920.-75.1920.1040@0.0.1920.1040" timestamp="1611801274940" />
-    <state x="499" y="115" key="CommitChangelistDialog2" timestamp="1610950627126">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="499" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.-75.1920.1040@0.0.1920.1040" timestamp="1610950627126" />
-    <state width="617" height="466" key="DebuggerActiveHint" timestamp="1612790558369">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="617" height="466" key="DebuggerActiveHint/0.0.1920.1040/1920.-75.1920.1040@0.0.1920.1040" timestamp="1612174254372" />
-    <state width="617" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1612790558369" />
-    <state x="179" y="84" key="DiffContextDialog" timestamp="1610950623127">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="179" y="84" key="DiffContextDialog/0.0.1920.1040/1920.-75.1920.1040@0.0.1920.1040" timestamp="1610950623127" />
-    <state x="732" y="232" key="FileChooserDialogImpl" timestamp="1610951905080">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="732" y="232" key="FileChooserDialogImpl/0.0.1920.1040/1920.-75.1920.1040@0.0.1920.1040" timestamp="1610951905080" />
-    <state width="1881" height="243" key="GridCell.Tab.0.bottom" timestamp="1612792610231">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1881" height="353" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-75.1920.1040@0.0.1920.1040" timestamp="1612248041054" />
-    <state width="1881" height="190" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-75.1920.1040@1920.-75.1920.1040" timestamp="1604654116329" />
-    <state width="1881" height="243" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612792610231" />
-    <state width="1881" height="289" key="GridCell.Tab.0.bottom/1920.-47.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1612431668836" />
-    <state width="1881" height="243" key="GridCell.Tab.0.center" timestamp="1612792610230">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1881" height="353" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-75.1920.1040@0.0.1920.1040" timestamp="1612248041053" />
-    <state width="1881" height="190" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-75.1920.1040@1920.-75.1920.1040" timestamp="1604654116328" />
-    <state width="1881" height="243" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612792610230" />
-    <state width="1881" height="289" key="GridCell.Tab.0.center/1920.-47.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1612431668836" />
-    <state width="1881" height="243" key="GridCell.Tab.0.left" timestamp="1612792610230">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1881" height="353" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-75.1920.1040@0.0.1920.1040" timestamp="1612248041053" />
-    <state width="1881" height="190" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-75.1920.1040@1920.-75.1920.1040" timestamp="1604654116328" />
-    <state width="1881" height="243" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612792610230" />
-    <state width="1881" height="289" key="GridCell.Tab.0.left/1920.-47.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1612431668836" />
-    <state width="1881" height="243" key="GridCell.Tab.0.right" timestamp="1612792610231">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1881" height="353" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-75.1920.1040@0.0.1920.1040" timestamp="1612248041053" />
-    <state width="1881" height="190" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-75.1920.1040@1920.-75.1920.1040" timestamp="1604654116328" />
-    <state width="1881" height="243" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612792610231" />
-    <state width="1881" height="289" key="GridCell.Tab.0.right/1920.-47.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1612431668836" />
-    <state width="1881" height="170" key="GridCell.Tab.1.bottom" timestamp="1612791824383">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1881" height="353" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.-75.1920.1040@0.0.1920.1040" timestamp="1612248041055" />
-    <state width="1881" height="190" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.-75.1920.1040@1920.-75.1920.1040" timestamp="1604654115907" />
-    <state width="1881" height="170" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612791824383" />
-    <state width="1881" height="353" key="GridCell.Tab.1.bottom/1920.-47.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1612431588161" />
-    <state width="1881" height="170" key="GridCell.Tab.1.center" timestamp="1612791824383">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1881" height="353" key="GridCell.Tab.1.center/0.0.1920.1040/1920.-75.1920.1040@0.0.1920.1040" timestamp="1612248041055" />
-    <state width="1881" height="190" key="GridCell.Tab.1.center/0.0.1920.1040/1920.-75.1920.1040@1920.-75.1920.1040" timestamp="1604654115907" />
-    <state width="1881" height="170" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612791824383" />
-    <state width="1881" height="353" key="GridCell.Tab.1.center/1920.-47.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1612431588160" />
-    <state width="1881" height="170" key="GridCell.Tab.1.left" timestamp="1612791824382">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1881" height="353" key="GridCell.Tab.1.left/0.0.1920.1040/1920.-75.1920.1040@0.0.1920.1040" timestamp="1612248041055" />
-    <state width="1881" height="190" key="GridCell.Tab.1.left/0.0.1920.1040/1920.-75.1920.1040@1920.-75.1920.1040" timestamp="1604654115906" />
-    <state width="1881" height="170" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612791824382" />
-    <state width="1881" height="353" key="GridCell.Tab.1.left/1920.-47.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1612431588160" />
-    <state width="1881" height="170" key="GridCell.Tab.1.right" timestamp="1612791824383">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1881" height="353" key="GridCell.Tab.1.right/0.0.1920.1040/1920.-75.1920.1040@0.0.1920.1040" timestamp="1612248041055" />
-    <state width="1881" height="190" key="GridCell.Tab.1.right/0.0.1920.1040/1920.-75.1920.1040@1920.-75.1920.1040" timestamp="1604654115907" />
-    <state width="1881" height="170" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612791824383" />
-    <state width="1881" height="353" key="GridCell.Tab.1.right/1920.-47.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1612431588161" />
-    <state width="1881" height="243" key="GridCell.Tab.2.bottom" timestamp="1612248041051">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1881" height="243" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.-75.1920.1040@0.0.1920.1040" timestamp="1612248041051" />
-    <state width="1881" height="190" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.-75.1920.1040@1920.-75.1920.1040" timestamp="1604654115908" />
-    <state width="1881" height="243" key="GridCell.Tab.2.center" timestamp="1612248041051">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1881" height="243" key="GridCell.Tab.2.center/0.0.1920.1040/1920.-75.1920.1040@0.0.1920.1040" timestamp="1612248041051" />
-    <state width="1881" height="190" key="GridCell.Tab.2.center/0.0.1920.1040/1920.-75.1920.1040@1920.-75.1920.1040" timestamp="1604654115907" />
-    <state width="1881" height="243" key="GridCell.Tab.2.left" timestamp="1612248041051">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1881" height="243" key="GridCell.Tab.2.left/0.0.1920.1040/1920.-75.1920.1040@0.0.1920.1040" timestamp="1612248041051" />
-    <state width="1881" height="190" key="GridCell.Tab.2.left/0.0.1920.1040/1920.-75.1920.1040@1920.-75.1920.1040" timestamp="1604654115907" />
-    <state width="1881" height="243" key="GridCell.Tab.2.right" timestamp="1612248041051">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1881" height="243" key="GridCell.Tab.2.right/0.0.1920.1040/1920.-75.1920.1040@0.0.1920.1040" timestamp="1612248041051" />
-    <state width="1881" height="190" key="GridCell.Tab.2.right/0.0.1920.1040/1920.-75.1920.1040@1920.-75.1920.1040" timestamp="1604654115908" />
-    <state x="535" y="260" key="IDE.errors.dialog" timestamp="1610951783835">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="535" y="260" key="IDE.errors.dialog/0.0.1920.1040/1920.-75.1920.1040@0.0.1920.1040" timestamp="1610951783835" />
-    <state x="485" y="194" key="NewModule_or_Project.wizard" timestamp="1610951912929">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="485" y="194" key="NewModule_or_Project.wizard/0.0.1920.1040/1920.-75.1920.1040@0.0.1920.1040" timestamp="1610951912929" />
-    <state x="339" y="100" width="1117" height="710" key="SettingsEditor" timestamp="1612792601001">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="339" y="100" width="1189" height="770" key="SettingsEditor/0.0.1920.1040/1920.-75.1920.1040@0.0.1920.1040" timestamp="1610953273662" />
-    <state x="339" y="100" width="1117" height="710" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1612792601001" />
-    <state x="730" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610952205266">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="730" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.-75.1920.1040@0.0.1920.1040" timestamp="1610952205266" />
-    <state x="563" y="201" width="1002" height="735" key="find.popup" timestamp="1611801720862">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="563" y="201" width="1002" height="735" key="find.popup/0.0.1920.1040/1920.-75.1920.1040@0.0.1920.1040" timestamp="1611801720862" />
-    <state x="174" y="159" width="1672" height="726" key="new project wizard" timestamp="1610952235751">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="174" y="159" width="1672" height="726" key="new project wizard/0.0.1920.1040/1920.-75.1920.1040@0.0.1920.1040" timestamp="1610952235751" />
-    <state x="2101" y="231" key="new project wizard/0.0.1920.1040/1920.-75.1920.1040@1920.-75.1920.1040" timestamp="1604295824802" />
-    <state x="2543" y="150" width="672" height="678" key="search.everywhere.popup" timestamp="1604652499308">
-      <screen x="1920" y="-75" width="1920" height="1040" />
-    </state>
-    <state x="2543" y="150" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.-75.1920.1040@1920.-75.1920.1040" timestamp="1604652499308" />
+    <MESSAGE value="线程方法" />
+    <MESSAGE value="java8 Stream学习" />
+    <MESSAGE value="引入mapstruct" />
+    <MESSAGE value="BIO学习,应用实例" />
+    <MESSAGE value="java Optional测试" />
+    <MESSAGE value="适配器模式之类适配器模式与对象适配器模式" />
+    <MESSAGE value="结构模式之适配器模式,接口适配器实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="结构模式之适配器模式,接口适配器实现" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -765,12 +848,12 @@
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/开课吧/src/main/java/com/sanshao/sortTest/InsertSort.java</url>
+          <url>file://$PROJECT_DIR$/kaikeba/src/main/java/com/sanshao/sortTest/InsertSort.java</url>
           <line>14</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/开课吧/src/main/java/com/sanshao/sortTest/InsertSort.java</url>
+          <url>file://$PROJECT_DIR$/kaikeba/src/main/java/com/sanshao/sortTest/InsertSort.java</url>
           <line>49</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
@@ -789,8 +872,152 @@
           <line>75</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/IOStudy/src/main/java/com/ljava/file/FileInfo.java</url>
+          <line>118</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SomeMethod/src/test/java/com/ljava/somemethod/test/UserMapperTest.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/javaTools/maven/repository/org/apache/hadoop/hadoop-common/3.2.4/hadoop-common-3.2.4.jar!/org/apache/hadoop/fs/FileSystem.class</url>
+          <line>213</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/javaTools/maven/repository/org/apache/hadoop/hadoop-common/3.2.4/hadoop-common-3.2.4.jar!/org/apache/hadoop/fs/FileSystem.class</url>
+          <line>225</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/javaTools/maven/repository/org/apache/hadoop/hadoop-common/3.2.4/hadoop-common-3.2.4.jar!/org/apache/hadoop/fs/FileSystem.class</url>
+          <line>1259</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/javaTools/maven/repository/org/apache/hadoop/hadoop-common/3.2.4/hadoop-common-3.2.4.jar!/org/apache/hadoop/fs/FileSystem.class</url>
+          <line>1253</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/javaTools/maven/repository/org/apache/hadoop/hadoop-common/3.2.4/hadoop-common-3.2.4.jar!/org/apache/hadoop/fs/FileSystem.class</url>
+          <line>1252</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/javaTools/maven/repository/org/apache/hadoop/hadoop-common/3.2.4/hadoop-common-3.2.4.jar!/org/apache/hadoop/fs/FileSystem.class</url>
+          <line>1223</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/javaTools/maven/repository/org/apache/hadoop/hadoop-common/3.2.4/hadoop-common-3.2.4-sources.jar!/org/apache/hadoop/fs/FileSystem.java</url>
+          <line>3336</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/excel/src/main/java/com/ljava/excel/toword/ExcelReader.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/excel/src/main/java/com/ljava/excel/poitoword/WordGenerator.java</url>
+          <line>274</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/javaTools/maven/repository/org/docx4j/docx4j-core/8.3.4/docx4j-core-8.3.4.jar!/org/docx4j/openpackaging/packages/WordprocessingMLPackage.class</url>
+          <line>212</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/javaTools/maven/repository/org/glassfish/jaxb/jaxb-runtime/3.0.2/jaxb-runtime-3.0.2.jar!/org/glassfish/jaxb/runtime/v2/runtime/MarshallerImpl.class</url>
+          <line>87</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/excel/src/main/java/com/ljava/excel/poitoword/WordGenerator.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/excel/src/main/java/com/ljava/excel/poitoword/ExcelToWordConverter3.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/excel/src/main/java/com/ljava/excel/poitoword/ExcelToWordConverter3.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/excel/src/main/java/com/ljava/excel/exceltoword2/TableMerger.java</url>
+          <line>189</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/excel/src/main/java/com/ljava/excel/exceltoword2/TableMerger.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/excel/src/main/java/com/ljava/excel/exceltoword2/TableMerger.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/auth3/src/main/java/com/ljava/auth/module/login/AuthController.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/auth3/src/main/java/com/ljava/auth/module/login/AuthController.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/auth3/src/main/java/com/ljava/auth/filter/JwtAuthenticationFilter.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/auth_2.0/src/main/java/com/ljava/auth2/Application.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/excel/src/main/java/com/ljava/excel/poitoword/ExcelToWordConverter3.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/excel/src/main/java/com/ljava/excel/poitoword/WordGenerator.java</url>
+          <line>108</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/excel/src/main/java/com/ljava/excel/poitoword/WordGenerator.java</url>
+          <line>122</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/excel/src/main/java/com/ljava/excel/poitoword/WordGenerator.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="alibabaStudy" type="b2602c69:ProjectViewProjectNode" />
+        <item name="dir{file:///Users/liuys/IdeaProjects/alibabaStudy}" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/demo$DemoApplication.ic" NAME="DemoApplication Coverage Results" MODIFIED="1598260796714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

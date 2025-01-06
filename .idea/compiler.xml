@@ -6,18 +6,48 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="leetcode" />
         <module name="maven-web" />
-        <module name="开课吧" />
+        <module name="auth3" />
+        <module name="designPattern" />
+        <module name="SomeMethod" />
+        <module name="leetcode" />
+        <module name="jvmStudy" />
         <module name="demo" />
+        <module name="rabbitmq-hello" />
+        <module name="excel" />
+        <module name="kaikeba" />
+        <module name="liteflow-demo" />
+        <module name="开课吧" />
+        <module name="IOStudy" />
         <module name="demo2" />
+      </profile>
+      <profile name="Annotation profile for auth_2.0" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/javaTools/maven/repository/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
+        </processorPath>
+        <module name="auth_2" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="demo" options="-parameters" />
+      <module name="IOStudy" options="-parameters" />
+      <module name="SomeMethod" options="-parameters" />
+      <module name="Study_test" options="-parameters" />
+      <module name="auth3" options="-parameters" />
+      <module name="auth_2" options="-parameters" />
       <module name="demo2" options="-parameters" />
+      <module name="designPattern" options="-parameters" />
+      <module name="excel" options="-parameters" />
+      <module name="jvmStudy" options="-parameters" />
+      <module name="kaikeba" options="-parameters" />
+      <module name="leetcode" options="-parameters" />
+      <module name="liteflow-demo" options="-parameters" />
+      <module name="maven-web" options="-parameters" />
+      <module name="rabbitmq-hello" options="-parameters" />
     </option>
   </component>
 </project>

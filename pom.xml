@@ -28,7 +28,7 @@
     </build>
     <modules>
         <module>maven-web</module>
-        <module>开课吧</module>
+        <module>kaikeba</module>
         <module>leetcode</module>
         <module>IOStudy</module>
         <module>designPattern</module>
@@ -36,6 +36,7 @@
         <module>jvmStudy</module>
     </modules>
     <properties>
+        <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <minio.version>8.3.7</minio.version>
         <guava.version>16.0.1</guava.version>
@@ -170,11 +171,6 @@
             <artifactId>lombok</artifactId>
             <version>1.18.10</version>
             <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.water</groupId>
-            <artifactId>check.core</artifactId>
-            <version>0.0.3</version>
         </dependency>
         <dependency>
             <groupId>io.minio</groupId>
