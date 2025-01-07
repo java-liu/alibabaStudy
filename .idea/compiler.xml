@@ -26,7 +26,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
-          <entry name="$USER_HOME$/javaTools/maven/repository/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
+          <entry name="$USER_HOME$/javaTools/maven/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar" />
         </processorPath>
         <module name="auth_2" />
       </profile>

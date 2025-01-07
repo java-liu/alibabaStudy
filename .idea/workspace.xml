@@ -27,63 +27,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bab48862-4d66-4b46-a4f8-8a635e87c46c" name="Default Changelist" comment="redis">
-      <change afterPath="$PROJECT_DIR$/SomeMethod/src/main/java/com/ljava/somemethod/enumTest/Day.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SomeMethod/src/main/java/com/ljava/somemethod/enumTest/enum.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SomeMethod/src/main/java/com/ljava/somemethod/hadoop/HdfsLineCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth3/src/main/java/com/ljava/auth/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth3/src/main/java/com/ljava/auth/config/SpringSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth3/src/main/java/com/ljava/auth/filter/JwtAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth3/src/main/java/com/ljava/auth/handler/AuthenticationSuccessHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth3/src/main/java/com/ljava/auth/module/login/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth3/src/main/java/com/ljava/auth/module/login/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth3/src/main/java/com/ljava/auth/module/login/request/LoginRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth3/src/main/java/com/ljava/auth/module/user/dao/UserRedisRespository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth3/src/main/java/com/ljava/auth/module/user/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth3/src/main/java/com/ljava/auth/utils/JwtUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth3/src/main/java/com/ljava/auth/utils/KeyGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth_2.0/src/main/java/com/ljava/auth2/user/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth_2.0/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designPattern/src/main/java/cn/ljava/strategy/note.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excel/src/main/java/com/ljava/excel/easytoword/ExcelReader2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excel/src/main/java/com/ljava/excel/easytoword/ExcelReaderWithMergedCells.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excel/src/main/java/com/ljava/excel/easytoword/ExcelToWordConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excel/src/main/java/com/ljava/excel/easytoword/WordGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excel/src/main/java/com/ljava/excel/exceltoword2/ExcelToWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excel/src/main/java/com/ljava/excel/exceltoword2/TableMerger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excel/src/main/java/com/ljava/excel/poitoword/Docx4jTableMerger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excel/src/main/java/com/ljava/excel/poitoword/ExcelReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excel/src/main/java/com/ljava/excel/poitoword/ExcelToWordConverter3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excel/src/main/java/com/ljava/excel/poitoword/WordGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excel/src/main/java/com/ljava/excel/toword/ExcelReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excel/src/main/java/com/ljava/excel/toword/ExcelReaderWithMergedCells.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excel/src/main/java/com/ljava/excel/toword/ExcelToWordConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excel/src/main/java/com/ljava/excel/toword/WordGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/liteflow-demo/src/main/java/cn/ljava/liteflowdemo/liteflow/ACmp.java" afterDir="false" />
+    <list default="true" id="bab48862-4d66-4b46-a4f8-8a635e87c46c" name="Default Changelist" comment="excel to word,Springboot2.x版本 SpringSecurity,Springboot3.x版本 SpringSecurity">
+      <change afterPath="$PROJECT_DIR$/auth_2.0/src/main/java/com/ljava/auth2/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth_2.0/src/main/java/com/ljava/auth2/config/RedisProperties.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SomeMethod/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SomeMethod/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designPattern/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/designPattern/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/main/java/com/sanshao/demo/GetRandom.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/sanshao/demo/GetRandom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/maven-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-hello/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-hello/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/开课吧/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kaikeba/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/开课吧/src/main/java/com/sanshao/control/Father.java" beforeDir="false" afterPath="$PROJECT_DIR$/kaikeba/src/main/java/com/sanshao/control/Father.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/开课吧/src/main/java/com/sanshao/control/OneServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/kaikeba/src/main/java/com/sanshao/control/OneServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/开课吧/src/main/java/com/sanshao/control/SubClass1.java" beforeDir="false" afterPath="$PROJECT_DIR$/kaikeba/src/main/java/com/sanshao/control/SubClass1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/开课吧/src/main/java/com/sanshao/control/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/kaikeba/src/main/java/com/sanshao/control/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/开课吧/src/main/java/com/sanshao/control/ThreeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/kaikeba/src/main/java/com/sanshao/control/ThreeServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/开课吧/src/main/java/com/sanshao/control/TwoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/kaikeba/src/main/java/com/sanshao/control/TwoServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/开课吧/src/main/java/com/sanshao/control/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/kaikeba/src/main/java/com/sanshao/control/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/开课吧/src/main/java/com/sanshao/mybatis/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/kaikeba/src/main/java/com/sanshao/mybatis/UserDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/开课吧/src/main/java/com/sanshao/service/impl/小学生.java" beforeDir="false" afterPath="$PROJECT_DIR$/kaikeba/src/main/java/com/sanshao/service/impl/小学生.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/开课吧/src/main/java/com/sanshao/service/学生守则接口.java" beforeDir="false" afterPath="$PROJECT_DIR$/kaikeba/src/main/java/com/sanshao/service/学生守则接口.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/开课吧/src/main/java/com/sanshao/service/零食小商贩.java" beforeDir="false" afterPath="$PROJECT_DIR$/kaikeba/src/main/java/com/sanshao/service/零食小商贩.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/开课吧/src/main/java/com/sanshao/sortTest/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/kaikeba/src/main/java/com/sanshao/sortTest/InsertSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth3/src/main/java/com/ljava/auth/module/login/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth3/src/main/java/com/ljava/auth/module/login/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth_2.0/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/auth_2.0/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth_2.0/src/main/java/com/ljava/auth2/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth_2.0/src/main/java/com/ljava/auth2/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth_2.0/src/main/java/com/ljava/auth2/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth_2.0/src/main/java/com/ljava/auth2/user/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth_2.0/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth_2.0/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/auth_2.0/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth_2.0/src/test/java/com/ljava/auth2/ApplicationTests.java" beforeDir="false" />
     </list>
     <list id="3bf60f7c-a53d-4a6a-89c6-1799b84f738a" name="no Commit" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -169,6 +124,7 @@
   </component>
   <component name="MavenRunner">
     <option name="jreName" value="openjdk-21" />
+    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -180,52 +136,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ExcelToWord.executor": "Run",
-    "Application.ExcelToWordConverter.executor": "Run",
-    "Application.ExcelToWordConverter2.executor": "Run",
-    "Application.ExcelToWordConverter3.executor": "Debug",
-    "Application.HdfsLineCount.executor": "Run",
-    "Application.JwtUtil.executor": "Run",
-    "Application.KeyGenerator.executor": "Run",
-    "Application.RequestWithEncrypt.executor": "Run",
-    "Application.ResponseToDecrypt.executor": "Run",
-    "Application.TableMerger.executor": "Debug",
-    "Application.com.ljava.excel.easytoword.ExcelToWordConverter.executor": "Run",
-    "Maven.excel [clean,install].executor": "Run",
-    "Maven.excel [clean].executor": "Run",
-    "Maven.excel [install].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "Spring Boot.Application.executor": "Debug",
-    "Spring Boot.AuthApplication.executor": "Debug",
-    "Spring Boot.DemoApplication (1).executor": "Debug",
-    "Spring Boot.ExcelApplication.executor": "Debug",
-    "Spring Boot.IOStudyApplication.executor": "Debug",
-    "Spring Boot.LiteflowDemoApplication.executor": "Debug",
-    "Spring Boot.SomeMethodApplication.executor": "Debug",
-    "WebServerToolWindowFactoryState": "false",
-    "com.codeium.enabled": "true",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "/Users/liuys/IdeaProjects/alibabaStudy/auth3/src/main/java/com/ljava/auth/utils",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.16110474",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
-    "spring.configuration.checksum": "7df826fd4b18ac4c1fa8dfe09ff321f5",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ExcelToWord.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExcelToWordConverter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExcelToWordConverter2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExcelToWordConverter3.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.HdfsLineCount.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JwtUtil.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KeyGenerator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RequestWithEncrypt.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ResponseToDecrypt.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TableMerger.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.com.ljava.excel.easytoword.ExcelToWordConverter.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.auth_2 [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.auth_2 [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.auth_2 [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.excel [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.excel [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.excel [install].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;Spring Boot.Application.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.AuthApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.DemoApplication (1).executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.ExcelApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.IOStudyApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.LiteflowDemoApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.SomeMethodApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/liuys/IdeaProjects/alibabaStudy/auth3/src/main/java/com/ljava/auth/utils&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.16110474&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;7df826fd4b18ac4c1fa8dfe09ff321f5&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -242,11 +201,11 @@
       <recent name="$PROJECT_DIR$/excel/src/main/java/com/ljava/excel" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ljava.auth2.config" />
       <recent name="com.ljava.auth.module.login" />
       <recent name="com.ljava.excel.poitoword" />
       <recent name="com.ljava.excel.easytoword" />
       <recent name="com.sanshao.offer" />
-      <recent name="com.utils" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -256,7 +215,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ExcelToWordConverter3">
+  <component name="RunManager" selected="Spring Boot.Application">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="leetcode" />
       <method v="2">
@@ -693,6 +652,9 @@
       <workItem from="1735116134850" duration="64000" />
       <workItem from="1735116551091" duration="6966000" />
       <workItem from="1735262742899" duration="42679000" />
+      <workItem from="1736131385047" duration="2627000" />
+      <workItem from="1736212631279" duration="12904000" />
+      <workItem from="1736233157133" duration="4204000" />
     </task>
     <task id="LOCAL-00001" summary="list set array相互转化">
       <created>1586415960079</created>
@@ -764,7 +726,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715580544199</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="excel to word,Springboot2.x版本 SpringSecurity,Springboot3.x版本 SpringSecurity">
+      <option name="closed" value="true" />
+      <created>1736131538465</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1736131538465</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -792,7 +762,8 @@
     <MESSAGE value="java Optional测试" />
     <MESSAGE value="适配器模式之类适配器模式与对象适配器模式" />
     <MESSAGE value="结构模式之适配器模式,接口适配器实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="结构模式之适配器模式,接口适配器实现" />
+    <MESSAGE value="excel to word,Springboot2.x版本 SpringSecurity,Springboot3.x版本 SpringSecurity" />
+    <option name="LAST_COMMIT_MESSAGE" value="excel to word,Springboot2.x版本 SpringSecurity,Springboot3.x版本 SpringSecurity" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -984,7 +955,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/auth_2.0/src/main/java/com/ljava/auth2/Application.java</url>
-          <line>11</line>
+          <line>12</line>
           <option name="timeStamp" value="79" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

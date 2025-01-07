@@ -1,3 +1,20 @@
 spring:
   application:
     name: auth_2.0
+  main:
+    allow-bean-definition-overriding: true
+  autoconfigure:
+    #不使用Spring Boot的redis自动配置,使用自己的配置,RedisConfig中的RedisTemplate配置与Spring Boot的RedisAutoConfiguration配置冲突
+    exclude:
+      - org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration
+  redis:
+    host: 47.94.12.182
+    port: 6379
+    password: pass_@admin
+    connect-timeout: 6000
+    database: 1
+    lettuce:
+      pool:
+        max-active: 8
+        max-idle: 8
+        min-idle: 0
