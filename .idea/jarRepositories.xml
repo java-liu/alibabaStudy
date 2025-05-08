@@ -2,6 +2,11 @@
 <project version="4">
   <component name="RemoteRepositoriesConfiguration">
     <remote-repository>
+      <option name="id" value="alimaven" />
+      <option name="name" value="aliyun maven" />
+      <option name="url" value="http://123.56.46.142:8081/repository/maven-public/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="rdc-snapshots" />
       <option name="name" value="rdc-snapshots" />
       <option name="url" value="http://172.18.8.102:8081/repository/maven-snapshots/" />
@@ -40,6 +45,11 @@
       <option name="id" value="jboss.community" />
       <option name="name" value="JBoss Community repository" />
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="releases" />
+      <option name="name" value="Releases" />
+      <option name="url" value="http://123.56.46.142:8081/repository/maven-public/" />
     </remote-repository>
   </component>
 </project>
