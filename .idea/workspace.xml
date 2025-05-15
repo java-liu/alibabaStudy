@@ -27,24 +27,29 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bab48862-4d66-4b46-a4f8-8a635e87c46c" name="Default Changelist" comment="重写RedisProperties,修改RedisConfig,解决不自动加载RedisProperties的问题">
-      <change afterPath="$PROJECT_DIR$/SomeMethod/src/main/java/com/ljava/somemethod/generics/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SomeMethod/src/main/java/com/ljava/somemethod/generics/Container.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SomeMethod/src/main/java/com/ljava/somemethod/generics/IntegerContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SomeMethod/src/main/java/com/ljava/somemethod/generics/MultiBoundExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SomeMethod/src/main/java/com/ljava/somemethod/generics/NumberBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SomeMethod/src/main/java/com/ljava/somemethod/generics/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SomeMethod/src/main/java/com/ljava/somemethod/generics/StringContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SomeMethod/src/main/java/com/ljava/somemethod/generics/TypeErasureExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SomeMethod/src/main/java/com/ljava/somemethod/generics/Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SomeMethod/src/main/java/com/ljava/somemethod/generics/泛型.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth_2.0/src/main/java/com/ljava/auth2/config/RedisCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth_2.0/src/main/java/com/ljava/auth2/domain/ReponseResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth_2.0/src/main/java/com/ljava/auth2/qwenai/QwenTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth_2.0/src/main/java/com/ljava/auth2/utils/JwtUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+    <list default="true" id="bab48862-4d66-4b46-a4f8-8a635e87c46c" name="Default Changelist" comment="docs(somemethod): 添加泛型相关代码示例和文档- 新增多个泛型类和接口示例，包括 Box、Container、IntegerContainer 等&#10;- 添加泛型方法和通配符使用的示例代码&#10;- 新增泛型使用文档，介绍泛型的基本概念、优点和最佳实践">
+      <change afterPath="$PROJECT_DIR$/thread-study/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-study/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-study/src/main/java/com/ljava/threadstudy/ThreadStudyApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-study/src/main/java/com/ljava/threadstudy/threadway/ThreadModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-study/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-study/src/test/java/com/ljava/threadstudy/ThreadStudyApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vocab-app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vocab-app/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vocab-app/src/main/java/com/ljava/vocabapp/VocabAppApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vocab-app/src/main/java/com/ljava/vocabapp/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vocab-app/src/main/java/com/ljava/vocabapp/controller/WordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vocab-app/src/main/java/com/ljava/vocabapp/dto/WordDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vocab-app/src/main/java/com/ljava/vocabapp/entity/Word.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vocab-app/src/main/java/com/ljava/vocabapp/mapper/WordMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vocab-app/src/main/java/com/ljava/vocabapp/service/WordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vocab-app/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vocab-app/src/test/java/com/ljava/vocabapp/VocabAppApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth_2.0/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/auth_2.0/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SomeMethod/src/main/java/com/ljava/somemethod/generics/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/SomeMethod/src/main/java/com/ljava/somemethod/generics/Box.java" afterDir="false" />
     </list>
     <list id="3bf60f7c-a53d-4a6a-89c6-1799b84f738a" name="no Commit" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -143,7 +148,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Box.executor": "Run",
+    "Application.Box.executor": "Debug",
     "Application.ExcelToWord.executor": "Run",
     "Application.ExcelToWordConverter.executor": "Run",
     "Application.ExcelToWordConverter2.executor": "Run",
@@ -158,15 +163,20 @@
     "Application.RequestWithEncrypt.executor": "Run",
     "Application.ResponseToDecrypt.executor": "Run",
     "Application.TableMerger.executor": "Debug",
+    "Application.ThreadModel.executor": "Run",
     "Application.TypeErasureExample.executor": "Run",
     "Application.Util.executor": "Run",
     "Application.com.ljava.excel.easytoword.ExcelToWordConverter.executor": "Run",
+    "HTTP Request.generated-requests | #8.executor": "Run",
     "Maven.auth_2 [clean,install].executor": "Run",
     "Maven.auth_2 [clean].executor": "Run",
     "Maven.auth_2 [install].executor": "Run",
     "Maven.excel [clean,install].executor": "Run",
     "Maven.excel [clean].executor": "Run",
     "Maven.excel [install].executor": "Run",
+    "Maven.vocab-app [clean,install].executor": "Run",
+    "Maven.vocab-app [clean].executor": "Run",
+    "Maven.vocab-app [install].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -179,6 +189,7 @@
     "Spring Boot.IOStudyApplication.executor": "Debug",
     "Spring Boot.LiteflowDemoApplication.executor": "Debug",
     "Spring Boot.SomeMethodApplication.executor": "Debug",
+    "Spring Boot.VocabAppApplication.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
     "com.codeium.enabled": "true",
     "git-widget-placeholder": "master",
@@ -191,11 +202,11 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.16110474",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
     "spring.configuration.checksum": "7df826fd4b18ac4c1fa8dfe09ff321f5",
     "vue.rearranger.settings.migration": "true"
   }
@@ -215,12 +226,15 @@
       <recent name="$PROJECT_DIR$/designPattern/src/main/java/cn/ljava/strategy" />
       <recent name="$PROJECT_DIR$/excel/src/main/java/com/ljava/excel" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.ljava.vocabapp.service" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ljava.vocabapp.dto" />
       <recent name="com.ljava.auth2.config" />
       <recent name="com.ljava.auth.module.login" />
       <recent name="com.ljava.excel.poitoword" />
       <recent name="com.ljava.excel.easytoword" />
-      <recent name="com.sanshao.offer" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -230,9 +244,9 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TypeErasureExample">
-    <configuration name="IntegerContainer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ljava.somemethod.generics.IntegerContainer" />
+  <component name="RunManager" selected="Spring Boot.VocabAppApplication">
+    <configuration name="Box" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ljava.somemethod.generics.Box" />
       <module name="SomeMethod" />
       <extension name="coverage">
         <pattern>
@@ -244,25 +258,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberBox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ljava.somemethod.generics.NumberBox" />
-      <module name="SomeMethod" />
+    <configuration name="ThreadModel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ljava.threadstudy.threadway.ThreadModel" />
+      <module name="thread-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ljava.somemethod.generics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Pair" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ljava.somemethod.generics.Pair" />
-      <module name="SomeMethod" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ljava.somemethod.generics.*" />
+          <option name="PATTERN" value="com.ljava.threadstudy.threadway.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -367,6 +368,20 @@
       <module name="SomeMethod" />
       <option name="PROGRAM_PARAMETERS" value="aaa bbb ccc --demo=arg" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ljava.somemethod.SomeMethodApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadStudyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="thread-study" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ljava.threadstudy.ThreadStudyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VocabAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="vocab-app" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ljava.vocabapp.VocabAppApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -493,11 +508,12 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.IntegerContainer" />
-      <item itemvalue="Application.NumberBox" />
-      <item itemvalue="Application.Pair" />
+      <item itemvalue="Application.ThreadModel" />
+      <item itemvalue="Application.Box" />
       <item itemvalue="Application.TypeErasureExample" />
       <item itemvalue="Application.Util" />
+      <item itemvalue="Spring Boot.VocabAppApplication" />
+      <item itemvalue="Spring Boot.ThreadStudyApplication" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.AuthApplication" />
       <item itemvalue="Spring Boot.DemoApplication (1)" />
@@ -509,11 +525,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadModel" />
+        <item itemvalue="Application.Box" />
         <item itemvalue="Application.TypeErasureExample" />
         <item itemvalue="Application.Util" />
-        <item itemvalue="Application.NumberBox" />
-        <item itemvalue="Application.Pair" />
-        <item itemvalue="Application.IntegerContainer" />
       </list>
     </recent_temporary>
   </component>
@@ -678,7 +693,11 @@
       <workItem from="1739245866408" duration="4192000" />
       <workItem from="1739850437780" duration="5715000" />
       <workItem from="1740714375064" duration="5865000" />
-      <workItem from="1746670553558" duration="7678000" />
+      <workItem from="1746670553558" duration="7862000" />
+      <workItem from="1746695526943" duration="6220000" />
+      <workItem from="1747099715094" duration="1839000" />
+      <workItem from="1747106264872" duration="16679000" />
+      <workItem from="1747190667297" duration="11365000" />
     </task>
     <task id="LOCAL-00001" summary="list set array相互转化">
       <created>1586415960079</created>
@@ -766,7 +785,23 @@
       <option name="project" value="LOCAL" />
       <updated>1736245732515</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="feat(auth_2.0): 添加 JWT 工具类和 Redis缓存支持&#10;&#10;- 新增 JwtUtil 工具类，用于生成和解析 JWT token&#10;- 添加 RedisCache 组件，提供 Redis 缓存支持&#10;- 新增 ReponseResult 响应类，用于统一返回结果格式&#10;- 添加 QwenTest 类，实现与 Qwen AI 的交互">
+      <option name="closed" value="true" />
+      <created>1746687947382</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1746687947382</updated>
+    </task>
+    <task id="LOCAL-00014" summary="docs(somemethod): 添加泛型相关代码示例和文档- 新增多个泛型类和接口示例，包括 Box、Container、IntegerContainer 等&#10;- 添加泛型方法和通配符使用的示例代码&#10;- 新增泛型使用文档，介绍泛型的基本概念、优点和最佳实践">
+      <option name="closed" value="true" />
+      <created>1746687970505</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1746687970505</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -796,7 +831,9 @@
     <MESSAGE value="结构模式之适配器模式,接口适配器实现" />
     <MESSAGE value="excel to word,Springboot2.x版本 SpringSecurity,Springboot3.x版本 SpringSecurity" />
     <MESSAGE value="重写RedisProperties,修改RedisConfig,解决不自动加载RedisProperties的问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="重写RedisProperties,修改RedisConfig,解决不自动加载RedisProperties的问题" />
+    <MESSAGE value="feat(auth_2.0): 添加 JWT 工具类和 Redis缓存支持&#10;&#10;- 新增 JwtUtil 工具类，用于生成和解析 JWT token&#10;- 添加 RedisCache 组件，提供 Redis 缓存支持&#10;- 新增 ReponseResult 响应类，用于统一返回结果格式&#10;- 添加 QwenTest 类，实现与 Qwen AI 的交互" />
+    <MESSAGE value="docs(somemethod): 添加泛型相关代码示例和文档- 新增多个泛型类和接口示例，包括 Box、Container、IntegerContainer 等&#10;- 添加泛型方法和通配符使用的示例代码&#10;- 新增泛型使用文档，介绍泛型的基本概念、优点和最佳实践" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs(somemethod): 添加泛型相关代码示例和文档- 新增多个泛型类和接口示例，包括 Box、Container、IntegerContainer 等&#10;- 添加泛型方法和通配符使用的示例代码&#10;- 新增泛型使用文档，介绍泛型的基本概念、优点和最佳实践" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

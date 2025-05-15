@@ -15,6 +15,7 @@
         <module name="demo" />
         <module name="rabbitmq-hello" />
         <module name="excel" />
+        <module name="thread-study" />
         <module name="kaikeba" />
         <module name="liteflow-demo" />
         <module name="开课吧" />
@@ -29,6 +30,17 @@
           <entry name="$USER_HOME$/javaTools/maven/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar" />
         </processorPath>
         <module name="auth_2" />
+      </profile>
+      <profile name="Annotation profile for vocab-app" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/javaTools/maven/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar" />
+          <entry name="$USER_HOME$/javaTools/maven/repository/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
+          <entry name="$USER_HOME$/javaTools/maven/repository/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
+        </processorPath>
+        <module name="vocab-app" />
       </profile>
     </annotationProcessing>
   </component>
@@ -48,6 +60,8 @@
       <module name="liteflow-demo" options="-parameters" />
       <module name="maven-web" options="-parameters" />
       <module name="rabbitmq-hello" options="-parameters" />
+      <module name="thread-study" options="-parameters" />
+      <module name="vocab-app" options="-parameters" />
     </option>
   </component>
 </project>
