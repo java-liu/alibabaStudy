@@ -1,5 +1,7 @@
 server:
   port: 8080
+  servlet:
+    context-path: /api
 
 spring:
   datasource:
@@ -10,7 +12,48 @@ spring:
   application:
     name: vocab-backend
 
+springdoc:
+  # 启用 OpenAPI 文档生成
+  openapi:
+    # 设置默认组名
+    default-group: "Default API"
+    # 描述信息
+    info:
+      title: "生词本 API 文档"
+      description: "这是一个前后端分离项目的后端接口文档"
+      version: "v1.0.0"
+      contact:
+        name: "ljava"
+    # 路由配置
+    urls:
+      - url: /v3/api-docs
+        name: 生词本主接口
+    # 是否显示扩展字段
+    show-extensions: true
+    # 是否启用 swagger-ui 页面
+    swagger-ui:
+      enabled: true
+      path: /swagger-ui/index.html
+      tags-sorter: alpha
+      operations-sorter: alpha
+    # 文档生成路径
+    api-docs:
+      path: /v3/api-docs
+
+
+
 mybatis-plus:
+  mapper-locations: classpath*:/mapper/**/*.xml
+  type-aliases-package: com.ljava.vocabapp.entity
+  auto-mapper-locations: false
   configuration:
     map-underscore-to-camel-case: true
-  #mapper-locations: classpath*:/mapper/**/*.xml
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+
+jwt:
+  secret: mySecretKeyThatIsLongEnoughAndSecure
+  expiration: 86400000  #24小时
+logging:
+  level:
+    com.ljava.vocabapp.mapper: debug
