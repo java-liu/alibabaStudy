@@ -10,7 +10,7 @@ import lombok.Data;
 import java.time.LocalDateTime;
 
 @Data
-@TableName("word")
+@TableName("tb_words")
 public class Word {
 
     @TableId(type = IdType.AUTO)

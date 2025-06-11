@@ -34,12 +34,12 @@ public class WebMvcConfig implements WebMvcConfigurer {
     public void addInterceptors(InterceptorRegistry registry){
         registry.addInterceptor(authenticationInterceptor)
                 .addPathPatterns("/**") // 拦截所有的请求
-                .excludePathPatterns("/admin/metrics/api-performance", "/auth/register"); // 排除登录和注册接口
+                .excludePathPatterns("/admin/metrics/api-performance", "/auth/register","/auth/hello"); // 排除登录和注册接口
         registry.addInterceptor(loggingInterceptor)
                 .addPathPatterns("/**"); // 拦截所有请求进行日志记录
         registry.addInterceptor(performanceMonitorInterceptor)
                 .addPathPatterns("/**") // 拦截所有的请求;
-                .excludePathPatterns("/auth/login", "/auth/register"); // 排除登录和注册接口
+                .excludePathPatterns("/auth/login", "/auth/register","/auth/hello"); // 排除登录和注册接口
     }
 
     @Bean

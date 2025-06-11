@@ -26,7 +26,7 @@ public class PerformanceMonitorInterceptor implements HandlerInterceptor {
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-        log.info("PerformanceMonitorInterceptor.preHandle() called for: {}", request.getRequestURI());
+        //log.info("PerformanceMonitorInterceptor.preHandle() called for: {}", request.getRequestURI());
         if(handler instanceof HandlerMethod) {
             HandlerMethod handlerMethod = (HandlerMethod) handler;
             String controllerName = handlerMethod.getBeanType().getSimpleName();
@@ -41,7 +41,7 @@ public class PerformanceMonitorInterceptor implements HandlerInterceptor {
 
     @Override
     public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) throws Exception {
-        log.info("PerformanceMonitorInterceptor.afterCompletion() called");
+        //log.info("PerformanceMonitorInterceptor.afterCompletion() called");
         String controllerName = (String) request.getAttribute("controllerName");
         String methodName = (String) request.getAttribute("methodName");
         String uri = request.getRequestURI();

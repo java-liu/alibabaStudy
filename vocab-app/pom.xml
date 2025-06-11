@@ -22,6 +22,10 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
         <!-- MyBatis Spring (Spring Boot 3.x 兼容版) -->
         <dependency>
             <groupId>org.mybatis</groupId>
