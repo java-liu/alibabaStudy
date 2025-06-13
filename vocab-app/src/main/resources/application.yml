@@ -1,16 +1,15 @@
-server:
-  port: 8080
-  servlet:
-    context-path: /vocab
-
 spring:
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://47.94.12.182:3306/vocab_db?useSSL=false&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&serverTimezone=GMT%2B8&nullCatalogMeansCurrent=true&allowPublicKeyRetrieval=true
-    username: root
-    password: sql_@admin
   application:
-    name: vocab-backend
+    name: vocab-app(生词本项目)
+    version: 1.0.0   #（当前应用版本号）
+  main:
+    allow-circular-references: true
+  # 激活的Spring配置文件
+  profiles:
+    active: dev
+    #active: test
+    #active: prod
+
 
 springdoc:
   # 启用 OpenAPI 文档生成

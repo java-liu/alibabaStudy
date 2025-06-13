@@ -1,0 +1,32 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /vocab
+
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://47.94.12.182:3306/vocab_db?useSSL=false&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&serverTimezone=GMT%2B8&nullCatalogMeansCurrent=true&allowPublicKeyRetrieval=true
+    username: root
+    password: sql_@admin
+
+#####################
+#SecurityConfig.java中的cors使用,如果setAllowCredentials(true)表示允许携带 Cookie、Authorization Header 等认证信息。
+#addAllowedOrigin("*") 表示允许任意源访问。
+#浏览器出于安全考虑，不允许在启用凭据的情况下使用通配符 "*" 作为源，否则会抛出异常或拒绝请求,
+#所以需要指定具体的请求源
+#####################
+vocabapp:
+  cors:
+    allowed-origin:
+      - "http://localhost:8081"
+      - "http://localhost:8082"
+  security:
+    jwt:
+      enabled: true  #是否启用 JWT校验
+      skip-urls:
+        - "/auth/login"
+        - "swagger-ui/**"
+        - "/v3/api-docs/**"
+

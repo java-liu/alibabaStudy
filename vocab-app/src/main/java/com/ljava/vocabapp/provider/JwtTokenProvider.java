@@ -5,6 +5,7 @@ import io.jsonwebtoken.*;
 import io.jsonwebtoken.security.Keys;
 import io.jsonwebtoken.security.MacAlgorithm;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.stereotype.Component;
 
 import javax.crypto.SecretKey;
@@ -12,6 +13,7 @@ import javax.crypto.spec.SecretKeySpec;
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.StandardCharsets;
 import java.util.Date;
+import java.util.List;
 import java.util.UUID;
 
 /**
@@ -101,6 +103,25 @@ public class JwtTokenProvider {
         byte[] encodedKey = secretKey.getBytes();
         //return new SecretKeySpec(encodedKey, 0, encodedKey.length, "AES");
         return Keys.hmacShaKeyFor(secretKey.getBytes(StandardCharsets.UTF_8));
+    }
+
+    public List<SimpleGrantedAuthority> getAuthoritiesFromToken(String token) {
+        Claims claims = Jwts.parser()
+                .verifyWith(generalKey())
+                .build()
+                .parseSignedClaims(token)
+                .getPayload();
+
+        // 从claims中获取权限信息
+        List<String> roles = claims.get("roles", List.class);
+        if (roles == null || roles.isEmpty()) {
+            return List.of(); // 如果没有角色，返回空列表
+        }
+
+        // 将角色转换为SimpleGrantedAuthority列表
+        return roles.stream()
+                .map(SimpleGrantedAuthority::new)
+                .toList();
     }
 }
 

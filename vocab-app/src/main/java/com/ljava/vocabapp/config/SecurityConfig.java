@@ -1,5 +1,8 @@
 package com.ljava.vocabapp.config;
 
+import com.ljava.vocabapp.config.properties.VocabAppProperties;
+import com.ljava.vocabapp.filter.JwtAuthenticationFilter;
+import com.ljava.vocabapp.provider.JwtTokenProvider;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -14,6 +17,10 @@ import org.springframework.security.config.annotation.web.configurers.LogoutConf
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
+import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
+import org.springframework.web.cors.CorsConfiguration;
+
+import java.util.Collections;
 
 @Configuration
 @EnableWebSecurity
@@ -21,10 +28,15 @@ public class SecurityConfig {
 
     //@Autowired
     //private UserDetailsService userDetailsService;
+    @Autowired
+    private JwtAuthenticationFilter jwtAuthenticationFilter;
+
+    @Autowired
+    private VocabAppProperties vocabAppProperties;
 
 
     @Bean
-    public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
+    public SecurityFilterChain filterChain(HttpSecurity http, JwtTokenProvider jwtTokenProvider) throws Exception {
         http
             .csrf(AbstractHttpConfigurer::disable) // 禁用CSRF保护
             .authorizeHttpRequests(auth -> auth
@@ -32,7 +44,16 @@ public class SecurityConfig {
                     .requestMatchers("/admin/**").hasRole("ADMIN") // 仅管理员可以访问/admin路径)
                     .requestMatchers("/user/**").hasAnyRole("USER", "ADMIN") // 用户和管理员可以访问/user路径
                     .anyRequest().authenticated() // 其他请求需要认证
-            )
+            ).cors(cors -> cors.configurationSource(request -> {
+                    var corsConfig = new CorsConfiguration();
+                    corsConfig.addAllowedOrigin("http://localhost:8081"); // 不能硬编码，使用配置文件
+                    //corsConfig.setAllowedOrigins(vocabAppProperties.getCorsAllowedOrigin()); // 如果是单个,使用addAllowedOrigin()
+                    corsConfig.addAllowedMethod("*"); // 允许所有HTTP方法
+                    corsConfig.addAllowedHeader("*"); // 允许所有请求头
+                    corsConfig.setAllowCredentials(true); // 允许携带凭证
+                    return corsConfig;
+                }
+            ))
                 .httpBasic(HttpBasicConfigurer::disable)
                 .formLogin(FormLoginConfigurer::disable)
 //                .formLogin(formLogin -> formLogin
@@ -41,8 +62,9 @@ public class SecurityConfig {
 //                .failureUrl("/login?error=true")
 //                .permitAll()
 //        )
-            .logout(LogoutConfigurer::permitAll // 启用注销功能 允许所有人访问注销功能
-            );
+                // 启用注销功能 允许所有人访问注销功能
+            .logout(LogoutConfigurer::permitAll)
+                .addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);
 
         return http.build();
     }

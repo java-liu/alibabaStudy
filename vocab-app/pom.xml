@@ -44,6 +44,11 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-extension</artifactId>
+            <version>3.5.7</version> <!-- 使用最新稳定版本 -->
+        </dependency>
         <!-- MySQL -->
         <dependency>
             <groupId>com.mysql</groupId>
