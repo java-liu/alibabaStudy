@@ -36,18 +36,18 @@ public class SecurityConfig {
 
 
     @Bean
-    public SecurityFilterChain filterChain(HttpSecurity http, JwtTokenProvider jwtTokenProvider) throws Exception {
+    public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         http
             .csrf(AbstractHttpConfigurer::disable) // 禁用CSRF保护
             .authorizeHttpRequests(auth -> auth
                     .requestMatchers("/auth/login").permitAll() // 允许所有人访问登录页面
-                    .requestMatchers("/admin/**").hasRole("ADMIN") // 仅管理员可以访问/admin路径)
+                    .requestMatchers("/admin/**").permitAll() // 仅管理员可以访问/admin路径)
                     .requestMatchers("/user/**").hasAnyRole("USER", "ADMIN") // 用户和管理员可以访问/user路径
                     .anyRequest().authenticated() // 其他请求需要认证
             ).cors(cors -> cors.configurationSource(request -> {
                     var corsConfig = new CorsConfiguration();
-                    corsConfig.addAllowedOrigin("http://localhost:8081"); // 不能硬编码，使用配置文件
-                    //corsConfig.setAllowedOrigins(vocabAppProperties.getCorsAllowedOrigin()); // 如果是单个,使用addAllowedOrigin()
+                    //corsConfig.addAllowedOrigin("http://localhost:8081"); // 不能硬编码，使用配置文件
+                    corsConfig.setAllowedOrigins(vocabAppProperties.getAllowedOrigin()); // 如果是单个,使用addAllowedOrigin()
                     corsConfig.addAllowedMethod("*"); // 允许所有HTTP方法
                     corsConfig.addAllowedHeader("*"); // 允许所有请求头
                     corsConfig.setAllowCredentials(true); // 允许携带凭证

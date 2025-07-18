@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -22,6 +23,16 @@
         <module name="IOStudy" />
         <module name="demo2" />
       </profile>
+      <profile name="Annotation profile for vocab-app" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/javaTools/maven/repository/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
+          <entry name="$USER_HOME$/javaTools/maven/repository/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
+        </processorPath>
+        <module name="vocab-app" />
+      </profile>
       <profile name="Annotation profile for auth_2.0" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -30,17 +41,6 @@
           <entry name="$USER_HOME$/javaTools/maven/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar" />
         </processorPath>
         <module name="auth_2" />
-      </profile>
-      <profile name="Annotation profile for vocab-app" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$USER_HOME$/javaTools/maven/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar" />
-          <entry name="$USER_HOME$/javaTools/maven/repository/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
-          <entry name="$USER_HOME$/javaTools/maven/repository/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
-        </processorPath>
-        <module name="vocab-app" />
       </profile>
     </annotationProcessing>
   </component>

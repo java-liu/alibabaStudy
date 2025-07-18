@@ -27,29 +27,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bab48862-4d66-4b46-a4f8-8a635e87c46c" name="Default Changelist" comment="docs(somemethod): 添加泛型相关代码示例和文档- 新增多个泛型类和接口示例，包括 Box、Container、IntegerContainer 等&#10;- 添加泛型方法和通配符使用的示例代码&#10;- 新增泛型使用文档，介绍泛型的基本概念、优点和最佳实践">
-      <change afterPath="$PROJECT_DIR$/thread-study/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread-study/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread-study/src/main/java/com/ljava/threadstudy/ThreadStudyApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread-study/src/main/java/com/ljava/threadstudy/threadway/ThreadModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread-study/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread-study/src/test/java/com/ljava/threadstudy/ThreadStudyApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vocab-app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vocab-app/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vocab-app/src/main/java/com/ljava/vocabapp/VocabAppApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vocab-app/src/main/java/com/ljava/vocabapp/config/CorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vocab-app/src/main/java/com/ljava/vocabapp/controller/WordController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vocab-app/src/main/java/com/ljava/vocabapp/dto/WordDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vocab-app/src/main/java/com/ljava/vocabapp/entity/Word.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vocab-app/src/main/java/com/ljava/vocabapp/mapper/WordMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vocab-app/src/main/java/com/ljava/vocabapp/service/WordService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vocab-app/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vocab-app/src/test/java/com/ljava/vocabapp/VocabAppApplicationTests.java" afterDir="false" />
+    <list default="true" id="bab48862-4d66-4b46-a4f8-8a635e87c46c" name="Default Changelist" comment="feat(auth): 实现 JWT 认证功能&#10;&#10;- 新增 JWT认证相关的配置和功能&#10;- 实现用户登录和权限验证- 添加跨域配置&#10;-优化安全配置，启用方法级别权限控制&#10;- 新增用户实体类和自定义用户详情服务&#10;- 实现密码加密和验证功能">
+      <change afterPath="$PROJECT_DIR$/vocab-app/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SomeMethod/src/main/java/com/ljava/somemethod/generics/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/SomeMethod/src/main/java/com/ljava/somemethod/generics/Box.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vocab-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vocab-app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vocab-app/src/main/java/com/ljava/vocabapp/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/vocab-app/src/main/java/com/ljava/vocabapp/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vocab-app/src/main/java/com/ljava/vocabapp/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/vocab-app/src/main/java/com/ljava/vocabapp/config/WebMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vocab-app/src/main/java/com/ljava/vocabapp/config/properties/VocabAppProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/vocab-app/src/main/java/com/ljava/vocabapp/config/properties/VocabAppProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vocab-app/src/main/java/com/ljava/vocabapp/controller/WordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/vocab-app/src/main/java/com/ljava/vocabapp/controller/WordController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vocab-app/src/main/java/com/ljava/vocabapp/interceptor/AuthenticationInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/vocab-app/src/main/java/com/ljava/vocabapp/interceptor/AuthenticationInterceptor.java" afterDir="false" />
     </list>
     <list id="3bf60f7c-a53d-4a6a-89c6-1799b84f738a" name="no Commit" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,6 +68,7 @@
         <option value="FxmlFile" />
         <option value="spring-beans.schema" />
         <option value="Enum" />
+        <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -102,6 +90,9 @@
     &quot;accountId&quot;: &quot;d90e38e2-d285-4d86-9568-98fa12431c3e&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/vocab-app/src/main/java/com/ljava/vocabapp/VocabAppApplication.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -168,6 +159,8 @@
     "Application.Util.executor": "Run",
     "Application.com.ljava.excel.easytoword.ExcelToWordConverter.executor": "Run",
     "HTTP Request.generated-requests | #8.executor": "Run",
+    "JUnit.VocabAppApplicationTests.testPasswordEncode.executor": "Run",
+    "JUnit.VocabAppApplicationTests.testPasswordMatch.executor": "Run",
     "Maven.auth_2 [clean,install].executor": "Run",
     "Maven.auth_2 [clean].executor": "Run",
     "Maven.auth_2 [install].executor": "Run",
@@ -175,15 +168,18 @@
     "Maven.excel [clean].executor": "Run",
     "Maven.excel [install].executor": "Run",
     "Maven.vocab-app [clean,install].executor": "Run",
+    "Maven.vocab-app [clean,package].executor": "Run",
     "Maven.vocab-app [clean].executor": "Run",
     "Maven.vocab-app [install].executor": "Run",
+    "Maven.vocab-app [org.apache.maven.plugins:maven-clean-plugin:3.3.2:clean].executor": "Run",
+    "Maven.vocab-app [package].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.git.unshallow": "true",
     "Spring Boot.Application.executor": "Debug",
-    "Spring Boot.AuthApplication.executor": "Debug",
+    "Spring Boot.AuthApplication.executor": "Run",
     "Spring Boot.DemoApplication (1).executor": "Debug",
     "Spring Boot.ExcelApplication.executor": "Debug",
     "Spring Boot.IOStudyApplication.executor": "Debug",
@@ -202,11 +198,11 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.16110474",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "settings.editor.selected.configurable": "com.xiaolvpuzi.smartinputpro.base",
     "spring.configuration.checksum": "7df826fd4b18ac4c1fa8dfe09ff321f5",
     "vue.rearranger.settings.migration": "true"
   }
@@ -230,27 +226,59 @@
       <recent name="com.ljava.vocabapp.service" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ljava.vocabapp.config.properties" />
+      <recent name="com.ljava.vocabapp.handler" />
+      <recent name="com.ljava.vocabapp.system.auth.request" />
+      <recent name="com.ljava.vocabapp.system.user" />
       <recent name="com.ljava.vocabapp.dto" />
-      <recent name="com.ljava.auth2.config" />
-      <recent name="com.ljava.auth.module.login" />
-      <recent name="com.ljava.excel.poitoword" />
-      <recent name="com.ljava.excel.easytoword" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="configurationTypes">
-      <set>
-        <option value="SpringBootApplicationConfigurationType" />
-      </set>
-    </option>
-  </component>
   <component name="RunManager" selected="Spring Boot.VocabAppApplication">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="leetcode" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Box" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ljava.somemethod.generics.Box" />
       <module name="SomeMethod" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ljava.somemethod.generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Box" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ljava.somemethod.generics.Box" />
+      <module name="SomeMethod" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljava.somemethod.generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadModel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ljava.threadstudy.threadway.ThreadModel" />
+      <module name="thread-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljava.threadstudy.threadway.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -284,8 +312,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Util" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ljava.somemethod.generics.Util" />
+    <configuration name="TypeErasureExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ljava.somemethod.generics.TypeErasureExample" />
       <module name="SomeMethod" />
       <extension name="coverage">
         <pattern>
@@ -293,6 +321,70 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VocabAppApplicationTests.testPasswordEncode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vocab-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljava.vocabapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ljava.vocabapp" />
+      <option name="MAIN_CLASS_NAME" value="com.ljava.vocabapp.VocabAppApplicationTests" />
+      <option name="METHOD_NAME" value="testPasswordEncode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VocabAppApplicationTests.testPasswordEncode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vocab-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljava.vocabapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ljava.vocabapp" />
+      <option name="MAIN_CLASS_NAME" value="com.ljava.vocabapp.VocabAppApplicationTests" />
+      <option name="METHOD_NAME" value="testPasswordEncode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VocabAppApplicationTests.testPasswordMatch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vocab-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljava.vocabapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ljava.vocabapp" />
+      <option name="MAIN_CLASS_NAME" value="com.ljava.vocabapp.VocabAppApplicationTests" />
+      <option name="METHOD_NAME" value="testPasswordMatch" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VocabAppApplicationTests.testPasswordMatch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vocab-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljava.vocabapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ljava.vocabapp" />
+      <option name="MAIN_CLASS_NAME" value="com.ljava.vocabapp.VocabAppApplicationTests" />
+      <option name="METHOD_NAME" value="testPasswordMatch" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -306,6 +398,24 @@
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="leetcode" />
       <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Remote Debug" type="Remote">
+      <module name="vocab-app" />
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <option name="AUTO_RESTART" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="auth_2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ljava.auth2.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -325,8 +435,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="auth3" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ljava.auth.AuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="demo2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -346,11 +477,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExcelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="excel" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ljava.excel.ExcelApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IOStudyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <module name="IOStudy" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ljava.IOStudyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IOStudyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="IOStudy" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ljava.IOStudyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LiteflowDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="liteflow-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.ljava.liteflowdemo.LiteflowDemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -372,9 +526,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SomeMethodApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="SomeMethod" />
+      <option name="PROGRAM_PARAMETERS" value="aaa bbb ccc --demo=arg" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ljava.somemethod.SomeMethodApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ThreadStudyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="thread-study" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ljava.threadstudy.ThreadStudyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadStudyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="thread-study" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ljava.threadstudy.ThreadStudyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VocabAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="vocab-app" />
+      <target name="vocab-app:0.0.1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ljava.vocabapp.VocabAppApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -508,12 +687,12 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ThreadModel" />
       <item itemvalue="Application.Box" />
+      <item itemvalue="Application.ThreadModel" />
       <item itemvalue="Application.TypeErasureExample" />
-      <item itemvalue="Application.Util" />
-      <item itemvalue="Spring Boot.VocabAppApplication" />
-      <item itemvalue="Spring Boot.ThreadStudyApplication" />
+      <item itemvalue="JUnit.VocabAppApplicationTests.testPasswordEncode" />
+      <item itemvalue="JUnit.VocabAppApplicationTests.testPasswordMatch" />
+      <item itemvalue="Remote JVM Debug.Remote Debug" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.AuthApplication" />
       <item itemvalue="Spring Boot.DemoApplication (1)" />
@@ -522,13 +701,16 @@
       <item itemvalue="Spring Boot.IOStudyApplication" />
       <item itemvalue="Spring Boot.LiteflowDemoApplication" />
       <item itemvalue="Spring Boot.SomeMethodApplication" />
+      <item itemvalue="Spring Boot.ThreadStudyApplication" />
+      <item itemvalue="Spring Boot.VocabAppApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.VocabAppApplicationTests.testPasswordMatch" />
+        <item itemvalue="JUnit.VocabAppApplicationTests.testPasswordEncode" />
+        <item itemvalue="Application.TypeErasureExample" />
         <item itemvalue="Application.ThreadModel" />
         <item itemvalue="Application.Box" />
-        <item itemvalue="Application.TypeErasureExample" />
-        <item itemvalue="Application.Util" />
       </list>
     </recent_temporary>
   </component>
@@ -697,7 +879,24 @@
       <workItem from="1746695526943" duration="6220000" />
       <workItem from="1747099715094" duration="1839000" />
       <workItem from="1747106264872" duration="16679000" />
-      <workItem from="1747190667297" duration="11365000" />
+      <workItem from="1747190667297" duration="11390000" />
+      <workItem from="1747377704441" duration="12013000" />
+      <workItem from="1747580943674" duration="882000" />
+      <workItem from="1747819484795" duration="1881000" />
+      <workItem from="1749173133293" duration="4027000" />
+      <workItem from="1749177201853" duration="8917000" />
+      <workItem from="1749195051051" duration="25513000" />
+      <workItem from="1749460561294" duration="18593000" />
+      <workItem from="1749605267543" duration="21162000" />
+      <workItem from="1749778430898" duration="3600000" />
+      <workItem from="1749782520232" duration="356000" />
+      <workItem from="1749782900090" duration="21748000" />
+      <workItem from="1750056017015" duration="405000" />
+      <workItem from="1750056451389" duration="8000" />
+      <workItem from="1750058429659" duration="2047000" />
+      <workItem from="1750126269995" duration="603000" />
+      <workItem from="1750145463813" duration="5374000" />
+      <workItem from="1750297530126" duration="7962000" />
     </task>
     <task id="LOCAL-00001" summary="list set array相互转化">
       <created>1586415960079</created>
@@ -801,7 +1000,39 @@
       <option name="project" value="LOCAL" />
       <updated>1746687970505</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="feat(thread-study): 添加线程相关代码示例和配置&#10;&#10;- 新增 thread-study 模块，用于线程学习和示例&#10;- 添加 ThreadModel 类作为线程示例&#10;- 创建 ThreadStudyApplication 作为 Spring Boot 应用入口&#10;- 编写 ThreadStudyApplicationTests 测试类&#10;- 添加 application.properties 配置文件&#10;- 新增 .gitignore 文件排除构建和IDE相关文件">
+      <option name="closed" value="true" />
+      <created>1747299917686</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1747299917686</updated>
+    </task>
+    <task id="LOCAL-00016" summary="feat(vocab-app): 新增用户认证、API性能监控和日志记录功能&#10;&#10;- 添加用户实体、用户服务和用户登录逻辑&#10;- 实现API性能监控和慢请求记录&#10;- 添加请求日志记录功能&#10;- 新增JWT token生成和验证功能&#10;- 更新WordController，增加获取所有单词的接口- 重构WebMvcConfig，配置全局过滤器和拦截器&#10;- 更新pom.xml，升级Spring Boot版本并添加相关依赖">
+      <option name="closed" value="true" />
+      <created>1749548070087</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1749548070087</updated>
+    </task>
+    <task id="LOCAL-00017" summary="feat(auth): 实现基本的用户认证功能&#10;&#10;- 新增 AuthController 处理登录请求&#10;- 添加 CustomAuthenticationSuccessHandler 和 CustomAuthenticationFailureHandler 处理登录成功和失败&#10;- 创建 LoginRequest 类用于登录请求体&#10;- 更新 application.yml 修改服务端口和上下文路径- 在 pom.xml 中添加 spring-boot-starter-security 依赖&#10;- 新增 SecurityConfig 配置安全过滤链&#10;- 添加 BCryptPasswordEncoder用于密码加密&#10;- 创建初始化数据库脚本&#10;- 更新 VocabAppApplication 启用方法级别权限控制&#10;- 调整 WebMvcConfig 排除新的登录接口- 修改 Word 实体类对应的表名">
+      <option name="closed" value="true" />
+      <created>1749638131627</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1749638131627</updated>
+    </task>
+    <task id="LOCAL-00018" summary="feat(auth): 实现 JWT 认证功能&#10;&#10;- 新增 JWT认证相关的配置和功能&#10;- 实现用户登录和权限验证- 添加跨域配置&#10;-优化安全配置，启用方法级别权限控制&#10;- 新增用户实体类和自定义用户详情服务&#10;- 实现密码加密和验证功能">
+      <option name="closed" value="true" />
+      <created>1749807429013</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1749807429013</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -833,7 +1064,11 @@
     <MESSAGE value="重写RedisProperties,修改RedisConfig,解决不自动加载RedisProperties的问题" />
     <MESSAGE value="feat(auth_2.0): 添加 JWT 工具类和 Redis缓存支持&#10;&#10;- 新增 JwtUtil 工具类，用于生成和解析 JWT token&#10;- 添加 RedisCache 组件，提供 Redis 缓存支持&#10;- 新增 ReponseResult 响应类，用于统一返回结果格式&#10;- 添加 QwenTest 类，实现与 Qwen AI 的交互" />
     <MESSAGE value="docs(somemethod): 添加泛型相关代码示例和文档- 新增多个泛型类和接口示例，包括 Box、Container、IntegerContainer 等&#10;- 添加泛型方法和通配符使用的示例代码&#10;- 新增泛型使用文档，介绍泛型的基本概念、优点和最佳实践" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs(somemethod): 添加泛型相关代码示例和文档- 新增多个泛型类和接口示例，包括 Box、Container、IntegerContainer 等&#10;- 添加泛型方法和通配符使用的示例代码&#10;- 新增泛型使用文档，介绍泛型的基本概念、优点和最佳实践" />
+    <MESSAGE value="feat(thread-study): 添加线程相关代码示例和配置&#10;&#10;- 新增 thread-study 模块，用于线程学习和示例&#10;- 添加 ThreadModel 类作为线程示例&#10;- 创建 ThreadStudyApplication 作为 Spring Boot 应用入口&#10;- 编写 ThreadStudyApplicationTests 测试类&#10;- 添加 application.properties 配置文件&#10;- 新增 .gitignore 文件排除构建和IDE相关文件" />
+    <MESSAGE value="feat(vocab-app): 新增用户认证、API性能监控和日志记录功能&#10;&#10;- 添加用户实体、用户服务和用户登录逻辑&#10;- 实现API性能监控和慢请求记录&#10;- 添加请求日志记录功能&#10;- 新增JWT token生成和验证功能&#10;- 更新WordController，增加获取所有单词的接口- 重构WebMvcConfig，配置全局过滤器和拦截器&#10;- 更新pom.xml，升级Spring Boot版本并添加相关依赖" />
+    <MESSAGE value="feat(auth): 实现基本的用户认证功能&#10;&#10;- 新增 AuthController 处理登录请求&#10;- 添加 CustomAuthenticationSuccessHandler 和 CustomAuthenticationFailureHandler 处理登录成功和失败&#10;- 创建 LoginRequest 类用于登录请求体&#10;- 更新 application.yml 修改服务端口和上下文路径- 在 pom.xml 中添加 spring-boot-starter-security 依赖&#10;- 新增 SecurityConfig 配置安全过滤链&#10;- 添加 BCryptPasswordEncoder用于密码加密&#10;- 创建初始化数据库脚本&#10;- 更新 VocabAppApplication 启用方法级别权限控制&#10;- 调整 WebMvcConfig 排除新的登录接口- 修改 Word 实体类对应的表名" />
+    <MESSAGE value="feat(auth): 实现 JWT 认证功能&#10;&#10;- 新增 JWT认证相关的配置和功能&#10;- 实现用户登录和权限验证- 添加跨域配置&#10;-优化安全配置，启用方法级别权限控制&#10;- 新增用户实体类和自定义用户详情服务&#10;- 实现密码加密和验证功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(auth): 实现 JWT 认证功能&#10;&#10;- 新增 JWT认证相关的配置和功能&#10;- 实现用户登录和权限验证- 添加跨域配置&#10;-优化安全配置，启用方法级别权限控制&#10;- 新增用户实体类和自定义用户详情服务&#10;- 实现密码加密和验证功能" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1009,16 +1244,6 @@
           <option name="timeStamp" value="74" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/auth3/src/main/java/com/ljava/auth/module/login/AuthController.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="75" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/auth3/src/main/java/com/ljava/auth/module/login/AuthController.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="77" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/auth3/src/main/java/com/ljava/auth/filter/JwtAuthenticationFilter.java</url>
           <line>19</line>
           <option name="timeStamp" value="78" />
@@ -1042,6 +1267,11 @@
           <url>file://$PROJECT_DIR$/excel/src/main/java/com/ljava/excel/poitoword/WordGenerator.java</url>
           <line>103</line>
           <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/vocab-app/src/main/java/com/ljava/vocabapp/entity/UserEntity.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="89" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

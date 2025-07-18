@@ -19,8 +19,8 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @Configuration
 public class WebMvcConfig implements WebMvcConfigurer {
 
-    @Autowired
-    private AuthenticationInterceptor authenticationInterceptor;
+    //@Autowired
+    //private AuthenticationInterceptor authenticationInterceptor;
     @Autowired
     private LoggingInterceptor loggingInterceptor;
     @Autowired
@@ -32,9 +32,10 @@ public class WebMvcConfig implements WebMvcConfigurer {
      */
     @Override
     public void addInterceptors(InterceptorRegistry registry){
-        registry.addInterceptor(authenticationInterceptor)
-                .addPathPatterns("/**") // 拦截所有的请求
-                .excludePathPatterns("/admin/metrics/api-performance", "/auth/register","/auth/login"); // 排除登录和注册接口
+        // 使用SpringSecurity的JwtAuthenticationFilter进行认证拦截,不再使用自定义的AuthenticationInterceptor,会导致认证冲突
+//        registry.addInterceptor(authenticationInterceptor)
+//                .addPathPatterns("/**") // 拦截所有的请求
+//                .excludePathPatterns("/admin/metrics/api-performance", "/auth/register","/auth/login"); // 排除登录和注册接口
         registry.addInterceptor(loggingInterceptor)
                 .addPathPatterns("/**"); // 拦截所有请求进行日志记录
         registry.addInterceptor(performanceMonitorInterceptor)

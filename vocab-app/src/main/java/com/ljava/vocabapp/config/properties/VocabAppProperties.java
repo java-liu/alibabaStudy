@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 
 @Component
-@ConfigurationProperties(prefix = "vocabapp")
+@ConfigurationProperties(prefix = "vocabapp.cors")
 public class VocabAppProperties {
 
     /**
@@ -16,13 +16,13 @@ public class VocabAppProperties {
      *
      * 需要指定允许的源
      */
-    private List<String> corsAllowedOrigin;
+    private List<String> allowedOrigin;
 
-    public List<String> getCorsAllowedOrigin() {
-        return corsAllowedOrigin;
+    public List<String> getAllowedOrigin() {
+        return allowedOrigin;
     }
 
-    public void setCorsAllowedOrigin(List<String> corsAllowedOrigin) {
-        this.corsAllowedOrigin = corsAllowedOrigin;
+    public void setAllowedOrigin(List<String> allowedOrigin) {
+        this.allowedOrigin = allowedOrigin;
     }
 }

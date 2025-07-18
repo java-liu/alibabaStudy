@@ -9,6 +9,9 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContext;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Component;
 import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.HandlerInterceptor;
@@ -20,6 +23,7 @@ import org.springframework.web.servlet.HandlerInterceptor;
  * 2.检查用户是否具有访问特定资源的权限
  * 3.实现无状态API的JWT token验证
  * 4.最后要把这个拦截器注册到Spring MVC的配置中，以便它能在请求处理过程中被调用。
+ * 5.如果使用Spring Security, 则不再使用自定义的拦截器进行认证,而是使用Spring Security提供的过滤器和认证机制。
  */
 @Component
 @Slf4j
@@ -33,6 +37,11 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception{
+        /*Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+        if(auth != null && auth.isAuthenticated() && !(auth instanceof org.springframework.security.authentication.AnonymousAuthenticationToken)){
+            // 如果用户已经认证且不是匿名用户，则直接放行
+            return true;
+        }*/
         if(!(handler instanceof HandlerMethod)){
             // 如果不是控制器方法，则直接放行
             return true;
